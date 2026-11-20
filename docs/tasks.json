@@ -318,8 +318,8 @@
           "expected": "search p95 under 2 ms; search-index.json under 2 MB"
         }
       ],
-      "status": "todo",
-      "evidence": ""
+      "status": "done",
+      "evidence": "Local run 2026-11-20 on branch claude/elegant-cerf-47pkic (Node 26.10.0, wrangler 4.165.0, @modelcontextprotocol/server 2.4.0). (1) agent/connector npm run test:worker (wrangler dev + @modelcontextprotocol/client 2.4.0, site API served from site/dist): 17/17 pass. search('lidar') includes txgio-lidar, get_entry and compare_engines('buffer') pass under both 2026-07-28 (era modern) and 2025-11-25 (era legacy); 201-character query -> 'Query too long (200 characters max)', limit 21 -> 'Limit must be a whole number from 1 to 20', 17 kB body -> HTTP 413 'Request too large (16 kB max)'; id ../../x -> 'Entry not found: ../../x'. npm test: 17/17 pass, including the fetch helper refusing 9 URLs outside the API base (other host, .., query, http, credentials) with nothing fetched. (2) npm run speed: 200 fixed queries (test/speed-queries.json) p50 0.123 ms, p95 0.479 ms, max 0.772 ms; search-index.json 1.57 MB. Worker bundle 2,477 KiB / 492 KiB gzip (wrangler deploy --dry-run)."
     },
     {
       "id": "T-15",

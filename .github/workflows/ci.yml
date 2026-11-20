@@ -129,7 +129,9 @@ jobs:
         with:
           node-version-file: site/.nvmrc
           cache: npm
-          cache-dependency-path: site/package-lock.json
+          cache-dependency-path: |
+            site/package-lock.json
+            agent/connector/package-lock.json
       - name: Install
         run: npm ci --ignore-scripts
       - name: Lint and format
@@ -142,6 +144,29 @@ jobs:
         run: npm run check:links
       - name: Unit tests
         run: npm run test:unit
+      # The MCP connector (agent/connector). Its end-to-end test serves the site
+      # just built, so it runs after the site build and needs no network.
+      - name: Connector install
+        working-directory: agent/connector
+        run: npm ci --ignore-scripts
+      - name: Connector type check
+        working-directory: agent/connector
+        run: npm run check
+      - name: Connector index
+        working-directory: agent/connector
+        run: npm run build:index
+      - name: Connector unit tests and speed
+        working-directory: agent/connector
+        run: npm test && npm run speed
+      - name: Connector end-to-end tests (both MCP revisions)
+        working-directory: agent/connector
+        run: npm run test:worker
+      - name: Upload the connector index
+        uses: actions/upload-artifact@v4
+        with:
+          name: geo-registry-connector
+          path: agent/connector/generated/search-index.json
+          if-no-files-found: error
       - name: Install the test browser
         run: npx playwright install --with-deps chromium
       - name: Browser tests
