@@ -1,0 +1,23 @@
+id: deep-learning-libraries-installers-for-arcgis
+kind: tool
+name: Deep Learning Libraries Installers for ArcGIS
+category: AI, agents & MCP for GIS
+subcategory: Esri AI
+tool_kind: Extension
+summary: Installers and instructions for the deep learning frameworks that ArcGIS Pro and Server deep
+  learning tools need.
+open_source: partial
+license: NOASSERTION
+license_original: Unknown
+interfaces:
+- download
+call:
+- download
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/Esri/deep-learning-frameworks
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 3

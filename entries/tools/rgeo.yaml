@@ -1,0 +1,22 @@
+id: rgeo
+kind: tool
+name: RGeo
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Ruby library implementing OGC Simple Features with geometry operations, projections and WKT/WKB
+  I/O.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Ruby
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/rgeo/rgeo
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 77

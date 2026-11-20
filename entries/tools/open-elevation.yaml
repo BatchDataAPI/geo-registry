@@ -1,0 +1,22 @@
+id: open-elevation
+kind: tool
+name: Open-Elevation
+category: Desktop GIS & analysis engines
+subcategory: Terrain & hydrology engines
+tool_kind: Server
+summary: Self-hostable elevation lookup API, a free alternative to the Google Elevation API.
+open_source: 'yes'
+license: GPL-2.0
+language: Python
+interfaces:
+- REST
+call:
+- rest
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/Jorl17/open-elevation
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 186

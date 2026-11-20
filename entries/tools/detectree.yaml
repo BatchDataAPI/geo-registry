@@ -1,0 +1,22 @@
+id: detectree
+kind: tool
+name: DetecTree
+category: Imagery, remote sensing & GeoAI
+subcategory: GeoAI / deep learning
+tool_kind: Library
+summary: Python library that classifies tree and non-tree pixels in aerial imagery.
+open_source: 'yes'
+license: GPL-3.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/martibosch/detectree
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 259

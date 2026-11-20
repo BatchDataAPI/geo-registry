@@ -1,0 +1,23 @@
+id: solari
+kind: tool
+name: Solari
+category: Routing, networks, geocoding & LRS
+subcategory: Routing engines
+tool_kind: Library
+summary: Multimodal transit routing engine in Rust built to run on small, memory-limited machines.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/ellenhp/solari
+notes: Young project
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 353

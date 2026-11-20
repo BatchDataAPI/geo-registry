@@ -1,0 +1,23 @@
+id: react-azure-maps
+kind: tool
+name: react-azure-maps
+category: Display & visualization
+subcategory: Web map libraries
+tool_kind: Library
+summary: React components for building maps with Azure Maps.
+open_source: 'yes'
+license: MIT
+language: TypeScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/Azure/react-azure-maps
+notes: React wrapper for Azure Maps
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 235

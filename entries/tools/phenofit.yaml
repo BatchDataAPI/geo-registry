@@ -1,0 +1,22 @@
+id: phenofit
+kind: tool
+name: phenofit
+category: Imagery, remote sensing & GeoAI
+subcategory: Time series
+tool_kind: Library
+summary: Extracts vegetation phenology dates from satellite time series in R.
+open_source: 'yes'
+license: GPL-2.0
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/eco-hydro/phenofit
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 297

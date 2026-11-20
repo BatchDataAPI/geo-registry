@@ -1,0 +1,22 @@
+id: spade
+kind: tool
+name: Spade
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Rust library for Delaunay and constrained Delaunay triangulations.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/Stoeoef/spade
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 80

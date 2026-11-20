@@ -1,0 +1,23 @@
+id: nansat
+kind: tool
+name: NANSAT
+category: Imagery, remote sensing & GeoAI
+subcategory: Remote sensing processing
+tool_kind: Library
+summary: Reads, reprojects and processes 2D satellite images from many sensors in Python.
+open_source: 'yes'
+license: GPL-3.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/nansencenter/nansat
+notes: Built on GDAL
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 273

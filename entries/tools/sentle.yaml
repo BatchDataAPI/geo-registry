@@ -1,0 +1,25 @@
+id: sentle
+kind: tool
+name: sentle
+category: Imagery, remote sensing & GeoAI
+subcategory: STAC ecosystem
+tool_kind: Library
+summary: Builds Sentinel-1 and Sentinel-2 data cubes larger than memory on an ordinary machine.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+- STAC
+call:
+- python
+- stac
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/cmosig/sentle
+notes: Uses Microsoft Planetary Computer STAC
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 292

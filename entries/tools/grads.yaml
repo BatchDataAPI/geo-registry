@@ -1,0 +1,26 @@
+id: grads
+kind: tool
+name: GrADS
+category: Display & visualization
+subcategory: Data viewers & editors
+tool_kind: Application
+summary: Desktop tool for accessing, analysing and plotting gridded earth science data such as NetCDF
+  and GRIB.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: C
+interfaces:
+- CLI
+- GUI
+call:
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/j-m-adams/GrADS
+notes: Maintained by the lead GrADS developer
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 205

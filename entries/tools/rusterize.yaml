@@ -1,0 +1,24 @@
+id: rusterize
+kind: tool
+name: rusterize
+category: Desktop GIS & analysis engines
+subcategory: Python raster & array analysis
+tool_kind: Library
+summary: Fast Rust-based tool for rasterizing vector geometries, usable from Python and R.
+open_source: 'yes'
+license: MIT
+language: Rust
+interfaces:
+- Python
+- R
+call:
+- python
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/ttrotto/rusterize
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 139

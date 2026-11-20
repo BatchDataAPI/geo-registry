@@ -1,0 +1,23 @@
+id: pymartini
+kind: tool
+name: pymartini
+category: Point clouds, LiDAR & 3D
+subcategory: Point cloud & mesh libraries
+tool_kind: Library
+summary: Generates terrain meshes from elevation rasters with the Martini RTIN algorithm.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/kylebarron/pymartini
+notes: Python port of Martini
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 327

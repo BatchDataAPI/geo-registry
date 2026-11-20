@@ -1,0 +1,22 @@
+id: urbansim
+kind: tool
+name: UrbanSim
+category: Routing, networks, geocoding & LRS
+subcategory: Accessibility & transport modeling
+tool_kind: Library
+summary: Python platform for statistical models of urban land use, real estate and location choice.
+open_source: 'yes'
+license: BSD-3-Clause
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/UDST/urbansim
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 330

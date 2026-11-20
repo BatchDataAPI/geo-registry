@@ -1,0 +1,21 @@
+id: distance-elixir
+kind: tool
+name: Distance (Elixir)
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Elixir library of distance calculations between points, lines and polygons, including great-circle
+  distance.
+open_source: 'yes'
+license: MIT
+language: Elixir
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/pkinney/distance
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 54

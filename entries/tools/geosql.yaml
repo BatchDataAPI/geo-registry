@@ -1,0 +1,26 @@
+id: geosql
+kind: tool
+name: GeoSQL
+category: AI, agents & MCP for GIS
+subcategory: LLM GIS agents & research
+tool_kind: Extension
+summary: Agent skill and Python package helping Claude or Codex write cost-safe geospatial SQL for BigQuery
+  and Snowflake.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+- SQL
+call:
+- python
+- sql
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/dekart-xyz/geosql
+notes: By Dekart.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 10

@@ -1,0 +1,24 @@
+id: honua-sdk-js
+kind: tool
+name: Honua SDK JS
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: TypeScript client giving one interface over ArcGIS REST, OGC API, WFS/WMS, STAC and GeoParquet
+  sources.
+open_source: 'yes'
+license: Apache-2.0
+language: TypeScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/honua-io/honua-sdk-js
+notes: Young project
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 31

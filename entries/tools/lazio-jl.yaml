@@ -1,0 +1,23 @@
+id: lazio-jl
+kind: tool
+name: LazIO.jl
+category: Point clouds, LiDAR & 3D
+subcategory: LAS/LAZ libraries
+tool_kind: Library
+summary: Julia package that reads and writes compressed LAZ point clouds via LASzip.
+open_source: 'yes'
+license: MIT
+language: Julia
+interfaces:
+- Julia
+call:
+- julia
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/evetion/LazIO.jl
+notes: Extends LasIO.jl
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 321

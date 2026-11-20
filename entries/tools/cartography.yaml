@@ -1,0 +1,24 @@
+id: cartography
+kind: tool
+name: cartography
+category: Display & visualization
+subcategory: R mapping
+tool_kind: Library
+summary: R package for thematic maps such as choropleths, proportional symbols and flows.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/riatelab/cartography
+notes: Authors point new users to its successor mapsf.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 221

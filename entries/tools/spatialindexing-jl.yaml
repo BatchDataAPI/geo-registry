@@ -1,0 +1,22 @@
+id: spatialindexing-jl
+kind: tool
+name: SpatialIndexing.jl
+category: Core libraries & formats
+subcategory: Spatial indexing
+tool_kind: Library
+summary: Pure-Julia spatial indexes such as R-trees and R*-trees.
+open_source: 'yes'
+license: MIT
+language: Julia
+interfaces:
+- Julia
+call:
+- julia
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/alyst/SpatialIndexing.jl
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 106

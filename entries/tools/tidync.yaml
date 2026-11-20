@@ -1,0 +1,24 @@
+id: tidync
+kind: tool
+name: tidync
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Explores NetCDF files and extracts slices as tidy data frames in R.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/ropensci/tidync
+notes: rOpenSci package
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 42

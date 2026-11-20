@@ -1,0 +1,23 @@
+id: autorift
+kind: tool
+name: autoRIFT
+category: Imagery, remote sensing & GeoAI
+subcategory: Change detection
+tool_kind: Library
+summary: Python feature-tracking module that measures pixel offsets between images, used for glacier velocity.
+open_source: 'yes'
+license: Apache-2.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/nasa-jpl/autoRIFT
+notes: Used by ITS_LIVE.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 242

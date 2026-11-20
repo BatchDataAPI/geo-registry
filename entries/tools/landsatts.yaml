@@ -1,0 +1,23 @@
+id: landsatts
+kind: tool
+name: LandsatTS
+category: Imagery, remote sensing & GeoAI
+subcategory: Time series
+tool_kind: Library
+summary: R package to fetch, clean, cross-calibrate and model phenology from Landsat time series.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/logan-berner/LandsatTS
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 296

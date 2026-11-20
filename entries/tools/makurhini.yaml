@@ -1,0 +1,25 @@
+id: makurhini
+kind: tool
+name: Makurhini
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: R package that computes landscape fragmentation and habitat connectivity indices for conservation
+  planning.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/connectscape/Makurhini
+notes: 'Docs site: connectscape.github.io/Makurhini'
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 155

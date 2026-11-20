@@ -1,0 +1,23 @@
+id: rusqlite-gpkg
+kind: tool
+name: rusqlite-gpkg
+category: Core libraries & formats
+subcategory: Vector formats
+tool_kind: Library
+summary: Rust crate to read and write GeoPackage files, built on rusqlite.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/yutannihilation/rusqlite-gpkg
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 121

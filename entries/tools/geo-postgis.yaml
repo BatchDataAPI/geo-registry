@@ -1,0 +1,22 @@
+id: geo-postgis
+kind: tool
+name: geo_postgis
+category: Spatial databases & query engines
+subcategory: Drivers & connectors
+tool_kind: Library
+summary: Postgrex extension that reads and writes PostGIS geometry types in Elixir.
+open_source: 'yes'
+license: MIT
+language: Elixir
+interfaces:
+- SQL
+call:
+- sql
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/felt/geo_postgis
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 371

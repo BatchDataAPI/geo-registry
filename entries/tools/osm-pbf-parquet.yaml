@@ -1,0 +1,23 @@
+id: osm-pbf-parquet
+kind: tool
+name: osm-pbf-parquet
+category: OSM & Overture tooling
+subcategory: Cloud-native / analytics
+tool_kind: Toolkit/CLI
+summary: Converts OSM PBF files into partitioned Parquet files for analytics.
+open_source: 'yes'
+license: MIT
+language: Rust
+interfaces:
+- CLI
+call:
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/OvertureMaps/osm-pbf-parquet
+notes: Overture Maps
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 299

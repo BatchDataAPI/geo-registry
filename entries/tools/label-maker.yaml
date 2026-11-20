@@ -1,0 +1,24 @@
+id: label-maker
+kind: tool
+name: Label Maker
+category: Imagery, remote sensing & GeoAI
+subcategory: Labeling & training data
+tool_kind: Toolkit/CLI
+summary: Builds machine-learning training data from OpenStreetMap labels and satellite imagery tiles.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+- CLI
+call:
+- python
+- cli
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/developmentseed/label-maker
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 268

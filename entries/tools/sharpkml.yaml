@@ -1,0 +1,22 @@
+id: sharpkml
+kind: tool
+name: SharpKml
+category: Core libraries & formats
+subcategory: Vector formats
+tool_kind: Library
+summary: Reads and writes KML and KMZ files from .NET code.
+open_source: 'yes'
+license: MIT
+language: C#
+interfaces:
+- .NET
+call:
+- dotnet
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/samcragg/sharpkml
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 123

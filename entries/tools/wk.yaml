@@ -1,0 +1,24 @@
+id: wk
+kind: tool
+name: wk
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: Lightweight R package for parsing and handling well-known text and binary geometries.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/paleolimbot/wk
+notes: Listed as "wt" in Awesome-Geospatial
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 177

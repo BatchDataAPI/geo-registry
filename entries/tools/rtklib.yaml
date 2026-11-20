@@ -1,0 +1,28 @@
+id: rtklib
+kind: tool
+name: RTKLIB
+category: Core libraries & formats
+subcategory: GNSS positioning
+tool_kind: Toolkit/CLI
+summary: GNSS toolkit for standard, RTK and precise point positioning, with real-time and post-processing
+  apps.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: C
+interfaces:
+- CLI
+- GUI
+- C/C++
+call:
+- cli
+- c-cpp
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/tomojitakasu/RTKLIB
+notes: New subcategory (no GNSS one existed).
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 47

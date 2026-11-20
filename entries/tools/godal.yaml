@@ -1,0 +1,23 @@
+id: godal
+kind: tool
+name: godal
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Idiomatic Go wrapper around GDAL for reading and writing raster and vector data.
+open_source: 'yes'
+license: Apache-2.0
+language: Go
+interfaces:
+- Go
+call:
+- go
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/airbusgeo/godal
+notes: Go binding of GDAL
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 30

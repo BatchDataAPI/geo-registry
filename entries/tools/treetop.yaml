@@ -1,0 +1,24 @@
+id: treetop
+kind: tool
+name: Treetop
+category: Point clouds, LiDAR & 3D
+subcategory: Lidar processing suites
+tool_kind: Application
+summary: Shiny web app that detects individual trees and forest metrics from lidar canopy models.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- GUI
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/carlos-alberto-silva/weblidar-treetop
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 325

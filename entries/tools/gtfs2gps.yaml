@@ -1,0 +1,23 @@
+id: gtfs2gps
+kind: tool
+name: gtfs2gps
+category: Routing, networks, geocoding & LRS
+subcategory: Transit data & tools
+tool_kind: Library
+summary: Turns GTFS schedules into GPS-like vehicle position records in R.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/ipea/gtfs2gps
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 356

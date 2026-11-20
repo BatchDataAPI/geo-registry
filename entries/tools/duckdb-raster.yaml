@@ -1,0 +1,22 @@
+id: duckdb-raster
+kind: tool
+name: duckdb-raster
+category: Spatial databases & query engines
+subcategory: Embedded / file databases
+tool_kind: Extension
+summary: DuckDB extension for reading and writing raster files with SQL.
+open_source: 'yes'
+license: MIT
+language: C++
+interfaces:
+- SQL
+call:
+- sql
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/ahuarte47/duckdb-raster
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 373

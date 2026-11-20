@@ -1,0 +1,24 @@
+id: pronto-raster
+kind: tool
+name: Pronto Raster
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: C++ library for map algebra and moving-window analysis on GDAL-readable rasters.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: C++
+interfaces:
+- C/C++
+call:
+- c-cpp
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/ahhz/raster
+notes: Research-oriented library
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 37

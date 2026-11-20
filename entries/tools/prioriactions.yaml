@@ -1,0 +1,23 @@
+id: prioriactions
+kind: tool
+name: prioriactions
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: R package that plans multi-action conservation using mixed-integer optimisation.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/prioriactions/prioriactions
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 164

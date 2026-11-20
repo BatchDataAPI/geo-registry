@@ -1,0 +1,24 @@
+id: alidade
+kind: tool
+name: Alidade
+category: Display & visualization
+subcategory: Web GIS application frameworks
+tool_kind: Platform
+summary: Self-hosted web GIS on MapLibre, PostGIS and FastAPI with vector tiles, COG mosaics and 3D terrain.
+open_source: 'yes'
+license: Apache-2.0
+language: TypeScript
+interfaces:
+- GUI
+- REST
+call:
+- rest
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/AysanZ/alidade
+notes: Young project
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 229

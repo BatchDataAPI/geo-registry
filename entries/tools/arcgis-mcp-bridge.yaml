@@ -1,0 +1,25 @@
+id: arcgis-mcp-bridge
+kind: tool
+name: arcgis-mcp-bridge
+category: AI, agents & MCP for GIS
+subcategory: Community ArcGIS MCP servers
+tool_kind: Server
+summary: Local MCP server that lets AI agents run ArcPy geoprocessing tools in ArcGIS Pro.
+open_source: 'yes'
+license: Apache-2.0
+language: Python
+interfaces:
+- MCP
+- Python
+call:
+- python
+- mcp
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/muend/arcgis-mcp-bridge
+notes: Needs a licensed ArcGIS Pro install
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 2

@@ -1,0 +1,23 @@
+id: geodesy-jl
+kind: tool
+name: Geodesy.jl
+category: Core libraries & formats
+subcategory: Projection & CRS
+tool_kind: Library
+summary: Converts points between geodetic coordinate systems such as lat/lon, ECEF, UTM and ENU in Julia.
+open_source: 'yes'
+license: MIT
+language: Julia
+interfaces:
+- Julia
+call:
+- julia
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/JuliaGeo/Geodesy.jl
+notes: JuliaGeo project
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 87

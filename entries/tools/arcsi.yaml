@@ -1,0 +1,25 @@
+id: arcsi
+kind: tool
+name: ARCSI
+category: Imagery, remote sensing & GeoAI
+subcategory: Atmospheric correction
+tool_kind: Toolkit/CLI
+summary: Command-line tool that turns Landsat, Sentinel-2 and similar optical imagery into analysis-ready
+  surface reflectance.
+open_source: 'yes'
+license: GPL-3.0
+language: Python
+interfaces:
+- CLI
+- Python
+call:
+- python
+- cli
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/remotesensinginfo/arcsi
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 239

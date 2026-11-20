@@ -1,0 +1,24 @@
+id: nasa-worldwind-java
+kind: tool
+name: NASA WorldWind Java
+category: Display & visualization
+subcategory: 3D globes & 3D Tiles
+tool_kind: Library
+summary: Java SDK for building 3D virtual globe desktop applications with imagery, terrain and vector
+  data.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Java
+interfaces:
+- Java
+call:
+- java
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/NASAWorldWind/WorldWindJava
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 192

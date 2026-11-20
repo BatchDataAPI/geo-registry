@@ -1,0 +1,22 @@
+id: pymap3d
+kind: tool
+name: pymap3d
+category: Core libraries & formats
+subcategory: Projection & CRS
+tool_kind: Library
+summary: Pure-Python 3D coordinate conversions between geodetic, ECEF, ENU, AER and ECI frames.
+open_source: 'yes'
+license: BSD-2-Clause
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/geospace-code/pymap3d
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 92

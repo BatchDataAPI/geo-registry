@@ -1,0 +1,22 @@
+id: kdtree-rust
+kind: tool
+name: kdtree (Rust)
+category: Core libraries & formats
+subcategory: Spatial indexing
+tool_kind: Library
+summary: K-dimensional tree in Rust for nearest-neighbour lookups on points.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mrhooray/kdtree-rs
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 101

@@ -1,0 +1,23 @@
+id: gridviz
+kind: tool
+name: gridviz
+category: Display & visualization
+subcategory: Charting & dataviz libraries with maps
+tool_kind: Library
+summary: Renders large gridded statistics (e.g. census grids) as interactive WebGL maps in the browser.
+open_source: 'yes'
+license: EUPL-1.2
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/eurostat/gridviz
+notes: Eurostat project
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 201

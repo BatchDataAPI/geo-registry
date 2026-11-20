@@ -1,0 +1,22 @@
+id: cold
+kind: tool
+name: COLD
+category: Imagery, remote sensing & GeoAI
+subcategory: Change detection
+tool_kind: Library
+summary: MATLAB implementation of the COLD algorithm for detecting land disturbance in Landsat time series.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: MATLAB
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/GERSL/COLD
+notes: MATLAB; no licence; low activity. Python port is pycold
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 245

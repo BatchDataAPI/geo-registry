@@ -79,6 +79,11 @@ CI runs `python seed/convert.py --check`. While the seed is the source of truth:
 - Fix systematic problems (licence mapping, region inference, slugging) in the converter
   and regenerate: `python seed/convert.py`.
 - Fix a single row's facts in the CSV and regenerate. Keep the CSV otherwise verbatim.
+- Add a new tool or data source as a row in `seed/additions.csv`, not in the atlas CSV. It
+  has the atlas columns plus `found_in`, a short lowercase slug naming where the row came
+  from (for example `awesome-geospatial`). The converter reads it after the atlas, so atlas
+  ids never change; the new entry gets `review.source: <found_in>` and
+  `review.source_row: <row in additions.csv>`. Review it later with an override, as above.
 - Review a seeded entry with an override: `seed/overrides/<id>.yaml` holds `id` and the
   fields to replace (tested `access` endpoints, `coverage`, `recipe`, `last_verified`;
   `review` is merged, so set `state: reviewed`, `reviewed_by` and `reviewed_on` once a

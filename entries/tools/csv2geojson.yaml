@@ -1,0 +1,25 @@
+id: csv2geojson
+kind: tool
+name: csv2geojson
+category: Core libraries & formats
+subcategory: Vector formats
+tool_kind: Library
+summary: Converts CSV files with latitude and longitude columns to GeoJSON, as a JavaScript library and
+  CLI.
+open_source: 'yes'
+license: MIT
+language: JavaScript
+interfaces:
+- JS
+- CLI
+call:
+- cli
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mapbox/csv2geojson
+status: active
+review:
+  state: seeded
+  source: awesome-spatial
+  source_row: 378

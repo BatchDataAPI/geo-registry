@@ -1,0 +1,23 @@
+id: geographiclib-rs
+kind: tool
+name: geographiclib-rs
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Rust port of GeographicLib geodesic calculations (direct and inverse problems on the ellipsoid).
+open_source: 'yes'
+license: MIT
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/georust/geographiclib-rs
+notes: Port of GeographicLib
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 63

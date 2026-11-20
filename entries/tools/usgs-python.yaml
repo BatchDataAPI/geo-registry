@@ -1,0 +1,26 @@
+id: usgs-python
+kind: tool
+name: usgs (Python)
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Python client and CLI for searching and downloading USGS EarthExplorer datasets through the M2M
+  API.
+open_source: 'yes'
+license: ISC
+language: Python
+interfaces:
+- Python
+- CLI
+call:
+- python
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/kapadia/usgs
+notes: Needs a USGS EROS account.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 43

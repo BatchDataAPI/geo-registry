@@ -1,0 +1,24 @@
+id: geopatra
+kind: tool
+name: geopatra
+category: Display & visualization
+subcategory: Python notebook & app mapping
+tool_kind: Library
+summary: Makes interactive web maps straight from GeoPandas GeoDataFrames using Folium, Kepler and similar
+  backends.
+open_source: 'yes'
+license: Apache-2.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/Sangarshanan/geopatra
+notes: Small project; check backends still work
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 219

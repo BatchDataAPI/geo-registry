@@ -1,0 +1,23 @@
+id: geojsonsf
+kind: tool
+name: geojsonsf
+category: Core libraries & formats
+subcategory: Vector formats
+tool_kind: Library
+summary: Converts between GeoJSON and sf objects quickly in R.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/SymbolixAU/geojsonsf
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 115

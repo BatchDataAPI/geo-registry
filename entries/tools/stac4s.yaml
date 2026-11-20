@@ -1,0 +1,21 @@
+id: stac4s
+kind: tool
+name: stac4s
+category: Imagery, remote sensing & GeoAI
+subcategory: STAC ecosystem
+tool_kind: Library
+summary: Scala library of data types for building applications on the STAC specification.
+open_source: 'yes'
+license: Apache-2.0
+language: Scala
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/stac-utils/stac4s
+notes: Scala (JVM)
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 294

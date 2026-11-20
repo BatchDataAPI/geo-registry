@@ -1,0 +1,22 @@
+id: geolambda
+kind: tool
+name: GeoLambda
+category: Commercial GIS platforms & APIs
+subcategory: AWS
+tool_kind: Toolkit/CLI
+summary: Docker images and layers for running GDAL-based geospatial Python code in AWS Lambda.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/developmentseed/geolambda
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 15

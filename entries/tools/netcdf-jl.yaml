@@ -1,0 +1,22 @@
+id: netcdf-jl
+kind: tool
+name: NetCDF.jl
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Reads and writes NetCDF files from Julia.
+open_source: 'yes'
+license: MIT
+language: Julia
+interfaces:
+- Julia
+call:
+- julia
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/meggart/NetCDF.jl
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 36

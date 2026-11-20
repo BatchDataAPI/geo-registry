@@ -1,0 +1,24 @@
+id: openrouteservice-js
+kind: tool
+name: openrouteservice-js
+category: Routing, networks, geocoding & LRS
+subcategory: Routing engines
+tool_kind: Library
+summary: JavaScript client for openrouteservice APIs such as directions, isochrones, matrix, geocoding
+  and elevation.
+open_source: 'yes'
+license: Apache-2.0
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/GIScience/openrouteservice-js
+notes: Needs an openrouteservice API key or own instance.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 348

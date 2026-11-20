@@ -1,0 +1,23 @@
+id: sfheaders
+kind: tool
+name: sfheaders
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: Builds sf objects quickly from plain R and C++ data.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/dcooley/sfheaders
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 168

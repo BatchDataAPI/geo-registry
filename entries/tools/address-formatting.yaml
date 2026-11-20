@@ -1,0 +1,22 @@
+id: address-formatting
+kind: tool
+name: address-formatting
+category: Routing, networks, geocoding & LRS
+subcategory: Address data
+tool_kind: Format/Standard
+summary: Templates describing how to format postal addresses country by country.
+open_source: 'yes'
+license: MIT
+interfaces:
+- download
+call:
+- download
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/OpenCageData/address-formatting
+notes: By OpenCage; used by several address formatter libraries.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 332

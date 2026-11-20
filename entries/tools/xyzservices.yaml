@@ -1,0 +1,23 @@
+id: xyzservices
+kind: tool
+name: xyzservices
+category: Display & visualization
+subcategory: Basemap providers
+tool_kind: Library
+summary: Gives Python code a catalogue of XYZ tile basemap providers with URLs and attribution.
+open_source: 'yes'
+license: BSD-3-Clause
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/geopandas/xyzservices
+notes: Used by geopandas, contextily and folium
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 194

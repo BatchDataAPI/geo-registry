@@ -1,0 +1,23 @@
+id: dronedb
+kind: tool
+name: DroneDB
+category: Imagery, remote sensing & GeoAI
+subcategory: Photogrammetry & drone
+tool_kind: Application
+summary: Software for storing, indexing and sharing aerial images, orthophotos and point clouds.
+open_source: 'yes'
+license: MPL-2.0
+language: C++
+interfaces:
+- CLI
+- GUI
+call:
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/DroneDB/DroneDB
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 269

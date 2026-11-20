@@ -1,0 +1,25 @@
+id: chupaesri
+kind: tool
+name: chupaESRI
+category: Routing, networks, geocoding & LRS
+subcategory: Address data
+tool_kind: Toolkit/CLI
+summary: Command-line tool that downloads features from ArcGIS Server map services into PostgreSQL.
+open_source: 'yes'
+license: GPL-3.0
+language: Python
+interfaces:
+- CLI
+- Python
+call:
+- python
+- cli
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/johnjreiser/chupaESRI
+notes: Similar to pyesridump
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 333

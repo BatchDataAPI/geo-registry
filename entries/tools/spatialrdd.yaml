@@ -1,0 +1,24 @@
+id: spatialrdd
+kind: tool
+name: SpatialRDD
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: R package for spatial regression discontinuity designs along geographic borders.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/axlehner/SpatialRDD
+notes: 'List description ("RDD files") is wrong: it is regression discontinuity'
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 170

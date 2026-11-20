@@ -1,0 +1,21 @@
+id: geocoder-php-azure-maps-provider
+kind: tool
+name: Geocoder PHP Azure Maps Provider
+category: Routing, networks, geocoding & LRS
+subcategory: Geocoding engines & libraries
+tool_kind: Library
+summary: Azure Maps provider for the Geocoder PHP library, for forward and reverse geocoding.
+open_source: 'yes'
+license: MIT
+language: PHP
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/geocoder-php/azure-maps-provider
+notes: PHP; read-only split of geocoder-php
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 337

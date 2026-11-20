@@ -1,0 +1,22 @@
+id: openstreetmapx-jl
+kind: tool
+name: OpenStreetMapX.jl
+category: Desktop GIS & analysis engines
+subcategory: Julia geospatial
+tool_kind: Library
+summary: Parses OpenStreetMap files into road networks for routing and simulation in Julia.
+open_source: 'yes'
+license: MIT
+language: Julia
+interfaces:
+- Julia
+call:
+- julia
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/pszufe/OpenStreetMapX.jl
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 131

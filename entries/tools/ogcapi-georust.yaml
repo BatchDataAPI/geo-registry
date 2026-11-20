@@ -1,0 +1,26 @@
+id: ogcapi-georust
+kind: tool
+name: ogcapi (georust)
+category: Servers, standards, tiles & catalogs
+subcategory: Map & feature servers
+tool_kind: Library
+summary: Rust building blocks for implementing OGC API clients and servers such as Features and Processes.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- Rust
+- REST
+- OGC
+call:
+- rest
+- ogc
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/georust/ogcapi
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 361

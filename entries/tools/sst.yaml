@@ -1,0 +1,23 @@
+id: sst
+kind: tool
+name: sst
+category: Point clouds, LiDAR & 3D
+subcategory: Core processing
+tool_kind: Toolkit/CLI
+summary: Streaming Delaunay triangulation of very large point clouds into TINs with limited memory.
+open_source: 'yes'
+license: MIT
+language: Rust
+interfaces:
+- CLI
+call:
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/hugoledoux/sst
+notes: Research tool by the startin author
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 318

@@ -1,0 +1,22 @@
+id: alphashape
+kind: tool
+name: alphashape
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Python toolbox that builds alpha shapes (concave hulls) around point sets.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/bellockk/alphashape
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 48

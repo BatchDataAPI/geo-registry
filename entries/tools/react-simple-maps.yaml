@@ -1,0 +1,22 @@
+id: react-simple-maps
+kind: tool
+name: react-simple-maps
+category: Display & visualization
+subcategory: Charting & dataviz libraries with maps
+tool_kind: Library
+summary: React components for SVG map charts built on d3-geo, with zoom, markers and annotations.
+open_source: 'yes'
+license: MIT
+language: TypeScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/zcreativelabs/react-simple-maps
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 203

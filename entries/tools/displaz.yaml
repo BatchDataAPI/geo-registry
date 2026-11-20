@@ -1,0 +1,24 @@
+id: displaz
+kind: tool
+name: displaz
+category: Point clouds, LiDAR & 3D
+subcategory: Desktop viewers & editors
+tool_kind: Application
+summary: Desktop viewer for large lidar point clouds, scriptable and extensible.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: C++
+interfaces:
+- GUI
+- CLI
+call:
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/c42f/displaz
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 319

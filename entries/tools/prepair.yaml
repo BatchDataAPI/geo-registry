@@ -1,0 +1,25 @@
+id: prepair
+kind: tool
+name: prepair
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Toolkit/CLI
+summary: Repairs invalid polygons so they meet OGC Simple Features rules.
+open_source: 'yes'
+license: GPL-3.0
+language: C++
+interfaces:
+- CLI
+- C/C++
+call:
+- cli
+- c-cpp
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/tudelft3d/prepair
+notes: TU Delft 3D geoinformation group
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 75

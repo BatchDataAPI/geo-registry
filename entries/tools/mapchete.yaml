@@ -1,0 +1,25 @@
+id: mapchete
+kind: tool
+name: Mapchete
+category: Desktop GIS & analysis engines
+subcategory: Python raster & array analysis
+tool_kind: Library
+summary: Processes large raster and vector datasets tile by tile in parallel, writing results as tiles
+  or files.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+- CLI
+call:
+- python
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mapchete/mapchete
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 137

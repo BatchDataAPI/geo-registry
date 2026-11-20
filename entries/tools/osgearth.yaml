@@ -1,0 +1,22 @@
+id: osgearth
+kind: tool
+name: osgEarth
+category: Display & visualization
+subcategory: 3D globes & 3D Tiles
+tool_kind: Library
+summary: C++ SDK for 3D maps and terrain built on OpenSceneGraph, streaming imagery, elevation and vectors.
+open_source: 'yes'
+license: MIT
+language: C++
+interfaces:
+- C/C++
+call:
+- c-cpp
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/pelicanmapping/osgearth
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 193

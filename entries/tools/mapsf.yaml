@@ -1,0 +1,22 @@
+id: mapsf
+kind: tool
+name: mapsf
+category: Display & visualization
+subcategory: R mapping
+tool_kind: Library
+summary: Makes thematic maps (choropleth, proportional symbols, typologies) from sf objects in R.
+open_source: 'yes'
+license: GPL-3.0
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/riatelab/mapsf
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 222

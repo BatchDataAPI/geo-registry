@@ -1,0 +1,22 @@
+id: giscor
+kind: tool
+name: giscoR
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Downloads Eurostat GISCO boundaries (countries, NUTS regions, communes) into R.
+open_source: 'yes'
+license: GPL-3.0
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/rOpenGov/giscoR
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 29

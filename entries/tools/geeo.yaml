@@ -1,0 +1,22 @@
+id: geeo
+kind: tool
+name: geeo
+category: Imagery, remote sensing & GeoAI
+subcategory: Cloud EO platforms
+tool_kind: Library
+summary: Google Earth Engine pipeline for analysis-ready Landsat and Sentinel-2 data and temporal composites.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/leonsnill/geeo
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 252

@@ -1,0 +1,22 @@
+id: rgis
+kind: tool
+name: rgis
+category: Desktop GIS & analysis engines
+subcategory: Open-source desktop GIS
+tool_kind: Application
+summary: Cross-platform desktop and web GIS application written in Rust.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Rust
+interfaces:
+- GUI
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/rgis-app/rgis
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 135

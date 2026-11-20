@@ -1,0 +1,24 @@
+id: dsmsearch
+kind: tool
+name: dsmSearch
+category: Point clouds, LiDAR & 3D
+subcategory: Lidar data sources
+tool_kind: Library
+summary: R package that finds and downloads DSM and lidar data for an area.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/land-info-lab/dsmSearch
+notes: Low stars but on CRAN
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 322

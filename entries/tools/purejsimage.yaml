@@ -1,0 +1,23 @@
+id: purejsimage
+kind: tool
+name: PureJsImage
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Zero-dependency TypeScript library for reading GeoTIFF, COG and GeoZarr rasters in browsers and
+  Node.
+open_source: 'yes'
+license: MIT
+language: TypeScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/a-r-d/PureJsImage
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 38

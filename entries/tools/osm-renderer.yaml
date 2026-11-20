@@ -1,0 +1,22 @@
+id: osm-renderer
+kind: tool
+name: osm-renderer
+category: Display & visualization
+subcategory: Cartographic renderers
+tool_kind: Server
+summary: Renders OpenStreetMap data into raster map tiles with a small Rust server.
+open_source: 'yes'
+license: MIT
+language: Rust
+interfaces:
+- CLI
+call:
+- cli
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/dfyz/osm-renderer
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 195

@@ -1,0 +1,23 @@
+id: rtsvis
+kind: tool
+name: rtsVis
+category: Display & visualization
+subcategory: Time & animation
+tool_kind: Library
+summary: R package that animates large raster time series with temporal interpolation.
+open_source: 'yes'
+license: GPL-3.0
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/JohMast/rtsVis
+notes: Low activity
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 228

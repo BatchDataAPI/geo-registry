@@ -1,0 +1,25 @@
+id: rasterframes
+kind: tool
+name: RasterFrames
+category: Spatial databases & query engines
+subcategory: Big data / distributed
+tool_kind: Library
+summary: Spark DataFrame support for Earth observation rasters, for scalable raster analysis in Python,
+  Scala or SQL.
+open_source: 'yes'
+license: Apache-2.0
+language: Python
+interfaces:
+- Python
+- SQL
+call:
+- python
+- sql
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/locationtech/rasterframes
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 369

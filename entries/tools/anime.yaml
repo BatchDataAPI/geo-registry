@@ -1,0 +1,28 @@
+id: anime
+kind: tool
+name: anime
+category: Routing, networks, geocoding & LRS
+subcategory: Linear referencing (LRS)
+tool_kind: Library
+summary: Matches and transfers attributes between two line networks that only roughly overlap (network
+  conflation).
+open_source: 'yes'
+license: MIT
+language: Rust
+interfaces:
+- Rust
+- R
+- Python
+call:
+- python
+- r
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/JosiahParry/anime
+notes: By Josiah Parry
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 345

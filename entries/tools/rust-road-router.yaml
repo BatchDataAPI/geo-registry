@@ -1,0 +1,23 @@
+id: rust-road-router
+kind: tool
+name: rust_road_router
+category: Routing, networks, geocoding & LRS
+subcategory: Routing engines
+tool_kind: Library
+summary: Research routing framework in Rust implementing fast shortest-path techniques for road networks.
+open_source: 'yes'
+license: BSD-3-Clause
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/kit-algo/rust_road_router
+notes: Academic (KIT) research code
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 351

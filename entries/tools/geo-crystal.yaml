@@ -1,0 +1,21 @@
+id: geo-crystal
+kind: tool
+name: geo (Crystal)
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Geospatial primitives and algorithms (distance, bearing, point-in-polygon) for the Crystal language.
+open_source: 'yes'
+license: MIT
+language: Crystal
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/geocrystal/geo
+notes: Crystal library
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 60

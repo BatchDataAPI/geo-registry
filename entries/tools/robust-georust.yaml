@@ -1,0 +1,23 @@
+id: robust-georust
+kind: tool
+name: robust (GeoRust)
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Rust implementation of Shewchuk's adaptive-precision orientation and in-circle predicates for
+  exact geometry tests.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/georust/robust
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 78

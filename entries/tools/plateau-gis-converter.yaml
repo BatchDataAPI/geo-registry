@@ -1,0 +1,23 @@
+id: plateau-gis-converter
+kind: tool
+name: plateau-gis-converter
+category: Point clouds, LiDAR & 3D
+subcategory: City models
+tool_kind: Toolkit/CLI
+summary: Converts Japan PLATEAU CityGML 3D city models into GeoJSON, GeoPackage, 3D Tiles and other formats.
+open_source: 'yes'
+license: MIT
+language: Rust
+interfaces:
+- GUI
+- CLI
+call:
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/MIERUNE/plateau-gis-converter
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 316

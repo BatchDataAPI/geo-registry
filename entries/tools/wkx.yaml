@@ -1,0 +1,22 @@
+id: wkx
+kind: tool
+name: wkx
+category: Core libraries & formats
+subcategory: Vector formats
+tool_kind: Library
+summary: JavaScript parser and serialiser for WKT, WKB, EWKT, EWKB, TWKB and GeoJSON.
+open_source: 'yes'
+license: MIT
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/cschwarz/wkx
+status: active
+review:
+  state: seeded
+  source: awesome-spatial
+  source_row: 379

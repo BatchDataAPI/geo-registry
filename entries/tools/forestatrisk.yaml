@@ -1,0 +1,22 @@
+id: forestatrisk
+kind: tool
+name: forestatrisk
+category: Desktop GIS & analysis engines
+subcategory: Spatial statistics applications
+tool_kind: Library
+summary: Models and maps the spatial risk of deforestation and projects future forest loss.
+open_source: 'yes'
+license: GPL-3.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/ghislainv/forestatrisk
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 180

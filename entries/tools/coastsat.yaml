@@ -1,0 +1,22 @@
+id: coastsat
+kind: tool
+name: CoastSat
+category: Imagery, remote sensing & GeoAI
+subcategory: Change detection
+tool_kind: Toolkit/CLI
+summary: Extracts shoreline positions from Landsat and Sentinel-2 imagery to build shoreline time series.
+open_source: 'yes'
+license: GPL-3.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/kvos/CoastSat
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 244

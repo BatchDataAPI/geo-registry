@@ -1,0 +1,23 @@
+id: sentinel-tree-cover
+kind: tool
+name: sentinel-tree-cover
+category: Imagery, remote sensing & GeoAI
+subcategory: GeoAI / deep learning
+tool_kind: Library
+summary: Model code that maps tree cover, including trees outside forests, from Sentinel imagery.
+open_source: 'yes'
+license: GPL-3.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/wri/sentinel-tree-cover
+notes: WRI pipeline behind its tropical tree cover maps
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 262

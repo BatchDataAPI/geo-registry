@@ -1,0 +1,22 @@
+id: osm-lump-ways
+kind: tool
+name: osm-lump-ways
+category: OSM & Overture tooling
+subcategory: PBF processing
+tool_kind: Toolkit/CLI
+summary: CLI that groups OpenStreetMap ways into longer lines based on topology and shared tags.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- CLI
+call:
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/amandasaurus/osm-lump-ways
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 302

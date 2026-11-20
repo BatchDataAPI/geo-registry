@@ -1,0 +1,24 @@
+id: opensphere
+kind: tool
+name: OpenSphere
+category: Display & visualization
+subcategory: Web GIS application frameworks
+tool_kind: Application
+summary: Browser-based GIS application with 2D and 3D views and plugins for many data services.
+open_source: 'yes'
+license: Apache-2.0
+language: JavaScript
+interfaces:
+- GUI
+- OGC
+call:
+- ogc
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/ngageoint/opensphere
+notes: From NGA (US National Geospatial-Intelligence Agency)
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 230

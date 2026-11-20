@@ -1,0 +1,24 @@
+id: dem-net
+kind: tool
+name: DEM.Net
+category: Desktop GIS & analysis engines
+subcategory: Terrain & hydrology engines
+tool_kind: Library
+summary: C# library for elevation lookups, line profiles, intervisibility and 3D terrain models from global
+  DEMs.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: C#
+interfaces:
+- .NET
+call:
+- dotnet
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/dem-net/DEM.Net
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 182

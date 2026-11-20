@@ -1,0 +1,23 @@
+id: geoscript-groovy
+kind: tool
+name: GeoScript Groovy
+category: Desktop GIS & analysis engines
+subcategory: JVM analysis engines
+tool_kind: Library
+summary: Groovy scripting library over GeoTools for reading, analysing and rendering spatial data.
+open_source: 'yes'
+license: MIT
+language: Groovy
+interfaces:
+- Java
+call:
+- java
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/geoscript/geoscript-groovy
+notes: JVM; built on GeoTools
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 124

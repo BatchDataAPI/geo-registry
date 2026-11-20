@@ -1,0 +1,23 @@
+id: azure-maps-gridded-data-source
+kind: tool
+name: azure-maps-gridded-data-source
+category: Display & visualization
+subcategory: Web map libraries
+tool_kind: Extension
+summary: Azure Maps Web SDK data source that aggregates points into square or hexagon grid cells.
+open_source: 'yes'
+license: MIT
+language: TypeScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/Azure-Samples/azure-maps-gridded-data-source
+notes: Official Azure sample module
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 232

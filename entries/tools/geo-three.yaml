@@ -1,0 +1,22 @@
+id: geo-three
+kind: tool
+name: Geo-Three
+category: Display & visualization
+subcategory: 3D globes & 3D Tiles
+tool_kind: Library
+summary: three.js library that draws tiled world maps and terrain from map tile providers.
+open_source: 'yes'
+license: MIT
+language: TypeScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/tentone/geo-three
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 191

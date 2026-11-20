@@ -1,0 +1,23 @@
+id: gopostal
+kind: tool
+name: gopostal
+category: Routing, networks, geocoding & LRS
+subcategory: Geocoding engines & libraries
+tool_kind: Library
+summary: Parses and normalises international street addresses from Go via libpostal.
+open_source: 'yes'
+license: MIT
+language: Go
+interfaces:
+- Go
+call:
+- go
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/openvenues/gopostal
+notes: Go binding of libpostal
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 340

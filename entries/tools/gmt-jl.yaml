@@ -1,0 +1,24 @@
+id: gmt-jl
+kind: tool
+name: GMT.jl
+category: Desktop GIS & analysis engines
+subcategory: Julia geospatial
+tool_kind: Library
+summary: Gives Julia access to the Generic Mapping Tools for map making and geoscience data processing.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Julia
+interfaces:
+- Julia
+call:
+- julia
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/GenericMappingTools/GMT.jl
+notes: Julia wrapper of GMT
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 130

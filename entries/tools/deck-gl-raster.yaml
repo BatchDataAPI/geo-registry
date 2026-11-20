@@ -1,0 +1,24 @@
+id: deck-gl-raster
+kind: tool
+name: deck.gl-raster
+category: Display & visualization
+subcategory: vis.gl / large-data WebGL
+tool_kind: Library
+summary: deck.gl layers that render Cloud-Optimized GeoTIFF and Zarr rasters directly on the GPU in the
+  browser.
+open_source: 'yes'
+license: MIT
+language: TypeScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/developmentseed/deck.gl-raster
+notes: Development Seed project
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 237

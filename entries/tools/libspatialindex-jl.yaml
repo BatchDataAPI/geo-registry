@@ -1,0 +1,23 @@
+id: libspatialindex-jl
+kind: tool
+name: LibSpatialIndex.jl
+category: Core libraries & formats
+subcategory: Spatial indexing
+tool_kind: Library
+summary: Julia wrapper around libspatialindex for R-tree indexing of bounding boxes.
+open_source: 'yes'
+license: MIT
+language: Julia
+interfaces:
+- Julia
+call:
+- julia
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/JuliaGeo/LibSpatialIndex.jl
+notes: Julia binding of libspatialindex
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 102

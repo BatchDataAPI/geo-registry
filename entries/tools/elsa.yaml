@@ -1,0 +1,23 @@
+id: elsa
+kind: tool
+name: elsa
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: R package computing ELSA, an entropy-based local indicator of spatial association.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/babaknaimi/elsa
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 147

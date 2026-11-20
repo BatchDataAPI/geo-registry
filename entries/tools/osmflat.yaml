@@ -1,0 +1,24 @@
+id: osmflat
+kind: tool
+name: osmflat
+category: OSM & Overture tooling
+subcategory: PBF processing
+tool_kind: Toolkit/CLI
+summary: Converts OSM PBF files into a flat, memory-mapped format for very fast reading.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- CLI
+- Rust
+call:
+- cli
+- rust
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/boxdot/osmflat-rs
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 304

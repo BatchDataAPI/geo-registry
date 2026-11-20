@@ -1,0 +1,20 @@
+id: turf-swift
+kind: tool
+name: turf-swift
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Swift port of Turf.js geometry calculations.
+open_source: 'yes'
+license: ISC
+language: Swift
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mapbox/turf-swift
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 84

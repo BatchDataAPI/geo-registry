@@ -1,0 +1,22 @@
+id: rgeo-geojson
+kind: tool
+name: Rgeo GeoJSON
+category: Core libraries & formats
+subcategory: Vector formats
+tool_kind: Library
+summary: Reads and writes GeoJSON for the RGeo geometry library in Ruby.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Ruby
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/rgeo/rgeo-geojson
+notes: RGeo add-on
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 119

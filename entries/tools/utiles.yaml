@@ -1,0 +1,27 @@
+id: utiles
+kind: tool
+name: utiles
+category: Servers, standards, tiles & catalogs
+subcategory: Tile generation & packaging
+tool_kind: Toolkit/CLI
+summary: Rust and Python utilities for web map tile maths and MBTiles handling, similar to mercantile.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Rust
+interfaces:
+- Python
+- CLI
+- Rust
+call:
+- python
+- cli
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/jessekrubin/utiles
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 366

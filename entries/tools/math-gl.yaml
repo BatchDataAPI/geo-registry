@@ -1,0 +1,23 @@
+id: math-gl
+kind: tool
+name: math.gl
+category: Display & visualization
+subcategory: vis.gl / large-data WebGL
+tool_kind: Library
+summary: JavaScript math modules for 3D and geospatial work, including Web Mercator and ellipsoid calculations.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: TypeScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: maintained
+url: https://visgl.github.io/math.gl/
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 238

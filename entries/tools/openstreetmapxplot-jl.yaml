@@ -1,0 +1,23 @@
+id: openstreetmapxplot-jl
+kind: tool
+name: OpenStreetMapXPlot.jl
+category: Display & visualization
+subcategory: Charting & dataviz libraries with maps
+tool_kind: Library
+summary: Plots road networks and routes from OpenStreetMapX.jl in Julia.
+open_source: 'yes'
+license: MIT
+language: Julia
+interfaces:
+- Julia
+call:
+- julia
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/pszufe/OpenStreetMapXPlot.jl
+notes: Add-on for OpenStreetMapX.jl
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 202

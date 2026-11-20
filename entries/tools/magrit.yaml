@@ -1,0 +1,21 @@
+id: magrit
+kind: tool
+name: Magrit
+category: Display & visualization
+subcategory: Hosted web map makers
+tool_kind: Application
+summary: Browser app for making thematic maps (choropleth, symbols, cartograms) from your own data.
+open_source: 'yes'
+license: GPL-3.0
+language: TypeScript
+interfaces:
+- GUI
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/riatelab/magrit
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 206

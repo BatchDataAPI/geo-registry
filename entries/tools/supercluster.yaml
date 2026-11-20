@@ -1,0 +1,22 @@
+id: supercluster
+kind: tool
+name: Supercluster
+category: Display & visualization
+subcategory: Web map libraries
+tool_kind: Library
+summary: Fast JavaScript point clustering for web maps in browsers and Node.js.
+open_source: 'yes'
+license: ISC
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mapbox/supercluster
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 236

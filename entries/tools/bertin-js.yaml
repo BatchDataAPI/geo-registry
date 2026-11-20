@@ -1,0 +1,22 @@
+id: bertin-js
+kind: tool
+name: Bertin.js
+category: Display & visualization
+subcategory: Charting & dataviz libraries with maps
+tool_kind: Library
+summary: JavaScript library for thematic web maps with layers such as choropleths and bubbles.
+open_source: 'yes'
+license: MIT
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/riatelab/bertin
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 197

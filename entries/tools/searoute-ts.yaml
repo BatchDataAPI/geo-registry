@@ -1,0 +1,23 @@
+id: searoute-ts
+kind: tool
+name: searoute-ts
+category: Routing, networks, geocoding & LRS
+subcategory: Routing engines
+tool_kind: Library
+summary: TypeScript library returning the shortest sea route between ports or coordinates on the Eurostat
+  maritime network.
+open_source: 'yes'
+license: MIT
+language: TypeScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mayurrawte/searoute-ts
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 352

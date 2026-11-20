@@ -1,0 +1,24 @@
+id: cogger
+kind: tool
+name: cogger
+category: Core libraries & formats
+subcategory: Raster formats
+tool_kind: Toolkit/CLI
+summary: Converts tiled GeoTIFFs into Cloud-Optimized GeoTIFFs quickly.
+open_source: 'yes'
+license: Apache-2.0
+language: Go
+interfaces:
+- CLI
+- Go
+call:
+- cli
+- go
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/airbusgeo/cogger
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 95

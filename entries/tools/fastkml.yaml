@@ -1,0 +1,22 @@
+id: fastkml
+kind: tool
+name: fastkml
+category: Core libraries & formats
+subcategory: Vector formats
+tool_kind: Library
+summary: Python library to read, write and manipulate KML files.
+open_source: 'yes'
+license: LGPL-2.1
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/cleder/fastkml
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 109

@@ -1,0 +1,22 @@
+id: rinex
+kind: tool
+name: RINEX
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Parses, analyses and writes RINEX GNSS observation and navigation files in Rust.
+open_source: 'yes'
+license: MPL-2.0
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/nav-solutions/rinex
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 39

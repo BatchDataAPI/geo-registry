@@ -1,0 +1,22 @@
+id: a-b-street
+kind: tool
+name: A/B Street
+category: Routing, networks, geocoding & LRS
+subcategory: Accessibility & transport modeling
+tool_kind: Application
+summary: Traffic simulation and street-planning app that models how road changes affect walking, cycling,
+  transit and driving.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- GUI
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/a-b-street/abstreet
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 328

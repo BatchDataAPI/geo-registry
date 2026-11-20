@@ -1,0 +1,26 @@
+id: ferrostar
+kind: tool
+name: Ferrostar
+category: Display & visualization
+subcategory: Native & mobile SDKs
+tool_kind: Library
+summary: Open navigation SDK with a Rust core and iOS, Android and web front ends for turn-by-turn guidance.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Rust
+interfaces:
+- Rust
+- JS
+call:
+- js
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/stadiamaps/ferrostar
+notes: Works with Valhalla and other routing back ends.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 214

@@ -1,0 +1,24 @@
+id: gdalraster
+kind: tool
+name: gdalraster
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: R bindings to the GDAL raster API and utilities.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/firelab/gdalraster
+notes: R binding of GDAL
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 27

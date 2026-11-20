@@ -1,0 +1,25 @@
+id: ls-metrics
+kind: tool
+name: LS_METRICS
+category: Desktop GIS & analysis engines
+subcategory: Spatial statistics applications
+tool_kind: Toolkit/CLI
+summary: Tool for calculating landscape connectivity and ecologically scaled landscape metrics from land
+  cover maps.
+open_source: 'yes'
+license: GPL-2.0
+language: Python
+interfaces:
+- CLI
+- Python
+call:
+- python
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/LEEClab/LS_METRICS
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 181

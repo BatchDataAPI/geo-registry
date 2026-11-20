@@ -1,0 +1,22 @@
+id: jord
+kind: tool
+name: jord
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Rust crate for geographic position calculations on spherical and ellipsoidal models.
+open_source: 'yes'
+license: MIT
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/ofmooseandmen/jord-rs
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 69

@@ -1,0 +1,24 @@
+id: openmap
+kind: tool
+name: Openmap
+category: Desktop GIS & analysis engines
+subcategory: JVM analysis engines
+tool_kind: Library
+summary: Java toolkit for building map applications and applets that display geographic data.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Java
+interfaces:
+- Java
+- GUI
+call:
+- java
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/openmap-java/openmap
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 125

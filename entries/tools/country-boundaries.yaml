@@ -1,0 +1,23 @@
+id: country-boundaries
+kind: tool
+name: country-boundaries
+category: Routing, networks, geocoding & LRS
+subcategory: Geocoding engines & libraries
+tool_kind: Library
+summary: Offline reverse geocoder that returns the country and subdivision for a coordinate.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/westnordost/country-boundaries-rust
+notes: Rust version; also Java/Kotlin ports
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 336

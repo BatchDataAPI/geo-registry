@@ -1,0 +1,22 @@
+id: localtileserver
+kind: tool
+name: localtileserver
+category: Imagery, remote sensing & GeoAI
+subcategory: Imagery tiling & serving
+tool_kind: Library
+summary: Python tile server that serves large local rasters as map tiles for ipyleaflet or folium.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/banesullivan/localtileserver
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 266

@@ -315,7 +315,8 @@ def apply(entries_dir: Path, overrides_dir: Path, entries: dict[str, dict],
     seeded = False
     for eid, ch in sorted(changes.items()):
         e = entries[eid]
-        is_seed = (e.get("review") or {}).get("source") == "geospatial-tool-atlas"
+        # Converter-made entries (atlas or seed/additions.csv) carry source_row; edit them via overrides.
+        is_seed = "source_row" in (e.get("review") or {})
         path = overrides_dir / f"{eid}.yaml" if is_seed else entries_dir / "data" / f"{eid}.yaml"
         text = path.read_text(encoding="utf-8") if path.exists() else f"id: {eid}\n"
         for k, v in ch.items():

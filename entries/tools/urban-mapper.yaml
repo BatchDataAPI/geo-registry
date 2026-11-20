@@ -1,0 +1,22 @@
+id: urban-mapper
+kind: tool
+name: Urban Mapper
+category: Desktop GIS & analysis engines
+subcategory: Python vector analysis
+tool_kind: Library
+summary: Joins and enriches urban layers (streets, intersections) with external datasets in pipelines.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/VIDA-NYU/UrbanMapper
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 145

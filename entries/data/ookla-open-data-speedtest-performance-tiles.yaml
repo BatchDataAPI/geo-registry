@@ -1,0 +1,22 @@
+id: ookla-open-data-speedtest-performance-tiles
+kind: data
+name: Ookla Open Data (Speedtest performance tiles)
+summary: Quarterly global fixed and mobile internet speed and latency statistics aggregated to map tiles.
+publisher: Unknown
+themes:
+- global-telecom
+- open-data-sources
+coverage:
+  region: Global
+license: NOASSERTION
+license_original: Unknown
+access:
+- type: http
+  url: https://github.com/teamookla/ookla-open-data
+  auth: none
+notes: New subcategory. Licence terms are on the repo page; check before reuse.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 313

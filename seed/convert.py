@@ -1,13 +1,19 @@
 #!/usr/bin/env python3
 """Convert the Geospatial Tool Atlas CSV into geo-registry YAML entries.
 
+New entries found elsewhere (awesome lists, the new-tool finder) go in a second
+sheet, seed/additions.csv: the atlas columns plus `found_in`, a short slug naming
+where the row came from (e.g. awesome-geospatial). Its entries are seeded like the
+atlas's, with review.source = found_in and review.source_row = the row in
+additions.csv. Atlas rows are read first, so their ids never change.
+
 Reproducible and deterministic: running it twice on the same CSV produces
 byte-identical files. Requires Python 3.12+ and PyYAML; nothing else.
 
 Usage:
     python seed/convert.py                 # regenerate entries/ from the seed CSV
     python seed/convert.py --check         # regenerate to a temp dir and diff against entries/
-    python seed/convert.py --csv FILE --out DIR
+    python seed/convert.py --csv FILE --additions FILE --out DIR
 
 The CSV is treated strictly as data. Nothing in it is executed or fetched.
 """
@@ -30,6 +36,7 @@ import yaml
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CSV = REPO_ROOT / "seed" / "geospatial-tool-atlas.csv"
+DEFAULT_ADDITIONS = REPO_ROOT / "seed" / "additions.csv"
 DEFAULT_OUT = REPO_ROOT / "entries"
 DEFAULT_OVERRIDES = REPO_ROOT / "seed" / "overrides"
 
@@ -43,6 +50,8 @@ EXPECTED_COLUMNS = [
     "category", "subcategory", "name", "kind", "open_source", "license", "language",
     "what_it_does", "interfaces", "status", "url", "notes", "also",
 ]
+ADDITIONS_COLUMNS = EXPECTED_COLUMNS + ["found_in"]
+FOUND_IN = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 
 # --------------------------------------------------------------------------- #
 # Licences
@@ -404,11 +413,11 @@ class Report:
     regions: Counter = field(default_factory=Counter)
 
 
-def read_rows(csv_path: Path) -> list[tuple[int, dict[str, str]]]:
+def read_rows(csv_path: Path, columns: list[str] = EXPECTED_COLUMNS) -> list[tuple[int, dict[str, str]]]:
     with csv_path.open(encoding="utf-8", newline="") as fh:
         reader = csv.DictReader(fh)
-        if reader.fieldnames != EXPECTED_COLUMNS:
-            raise SystemExit(f"unexpected CSV header: {reader.fieldnames}")
+        if reader.fieldnames != columns:
+            raise SystemExit(f"unexpected CSV header in {csv_path.name}: {reader.fieldnames}")
         # Spreadsheet row numbering: header is row 1, first data row is row 2.
         return [(i, {k: (v or "") for k, v in r.items() if k is not None})
                 for i, r in enumerate(reader, start=2)]
@@ -418,9 +427,19 @@ def split_list(text: str) -> list[str]:
     return [p.strip() for p in re.split(r"[;,]", text) if p.strip()]
 
 
-def convert(csv_path: Path) -> tuple[dict[str, dict], Report]:
+def convert(csv_path: Path, additions_path: Path | None = None) -> tuple[dict[str, dict], Report]:
     rep = Report()
     rows = read_rows(csv_path)
+    # review.source for each row: the atlas, or the additions row's found_in.
+    sources = [SOURCE_NAME] * len(rows)
+    if additions_path is not None and additions_path.exists():
+        for row_no, row in read_rows(additions_path, ADDITIONS_COLUMNS):
+            found_in = clean(row.pop("found_in"))
+            if not FOUND_IN.match(found_in) or found_in == SOURCE_NAME:
+                raise SystemExit(f"{additions_path.name} row {row_no}: found_in must be a lowercase slug "
+                                 f"other than {SOURCE_NAME!r}, got {found_in!r}")
+            rows.append((row_no, row))
+            sources.append(found_in)
     rep.rows = len(rows)
 
     # Pass 1: assign ids.
@@ -454,14 +473,14 @@ def convert(csv_path: Path) -> tuple[dict[str, dict], Report]:
 
     entries: dict[str, dict] = {}
     by_url: dict[tuple[str, str], list[str]] = {}
-    for (row_no, row), eid in zip(rows, ids):
+    for (row_no, row), eid, source in zip(rows, ids, sources):
         if eid is None:
             continue
         lic = normalise_license(row["license"])
         rep.license_buckets[lic.bucket] += 1
         if lic.value != clean(row["license"]):
             rep.license_changes[(clean(row["license"]), lic.value)] += 1
-        review = {"state": "seeded", "source": SOURCE_NAME, "source_row": row_no}
+        review = {"state": "seeded", "source": source, "source_row": row_no}
         status = "retired" if row["status"] == "Archived/Deprecated" else "active"
         url = clean(row["url"])
         notes = clean(row["notes"])
@@ -687,6 +706,8 @@ def print_summary(rep: Report) -> None:
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--csv", type=Path, default=DEFAULT_CSV)
+    ap.add_argument("--additions", type=Path, default=DEFAULT_ADDITIONS,
+                    help="second seed sheet: the atlas columns plus found_in (skipped if missing)")
     ap.add_argument("--out", type=Path, default=DEFAULT_OUT)
     ap.add_argument("--overrides", type=Path, default=DEFAULT_OVERRIDES)
     ap.add_argument("--check", action="store_true",
@@ -698,7 +719,7 @@ def main(argv: list[str] | None = None) -> int:
         print("convert.py needs Python 3.12+", file=sys.stderr)
         return 2
 
-    entries, rep = convert(args.csv)
+    entries, rep = convert(args.csv, args.additions)
     bad = apply_overrides(entries, args.overrides)
     if bad:
         for b in bad:

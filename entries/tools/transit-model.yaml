@@ -1,0 +1,24 @@
+id: transit-model
+kind: tool
+name: transit_model
+category: Routing, networks, geocoding & LRS
+subcategory: Transit data & tools
+tool_kind: Library
+summary: Converts, validates and enriches public transit data such as GTFS and NTFS.
+open_source: 'yes'
+license: AGPL-3.0
+language: Rust
+interfaces:
+- Rust
+- CLI
+call:
+- cli
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/hove-io/transit_model
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 357

@@ -1,0 +1,24 @@
+id: pdal-java
+kind: tool
+name: PDAL-Java
+category: Point clouds, LiDAR & 3D
+subcategory: Core processing
+tool_kind: Library
+summary: Java and Scala bindings for running PDAL point cloud pipelines from the JVM.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Java
+interfaces:
+- Java
+call:
+- java
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/PDAL/java
+notes: Official PDAL project
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 317

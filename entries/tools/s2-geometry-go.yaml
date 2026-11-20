@@ -1,0 +1,22 @@
+id: s2-geometry-go
+kind: tool
+name: S2 Geometry (Go)
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Go port of the S2 spherical geometry library with cells, regions and spherical predicates.
+open_source: 'yes'
+license: Apache-2.0
+language: Go
+interfaces:
+- Go
+call:
+- go
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/golang/geo
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 79

@@ -1,0 +1,22 @@
+id: mapbox-navigation-sdk-for-ios
+kind: tool
+name: Mapbox Navigation SDK for iOS
+category: Display & visualization
+subcategory: Native & mobile SDKs
+tool_kind: Library
+summary: iOS SDK for turn-by-turn navigation with routing, guidance and map UI.
+open_source: partial
+license: NOASSERTION
+license_original: Unknown
+language: Swift
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mapbox/mapbox-navigation-ios
+notes: Needs a Mapbox account and token; Mapbox terms apply.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 216

@@ -1,0 +1,24 @@
+id: nanocubes
+kind: tool
+name: Nanocubes
+category: Spatial databases & query engines
+subcategory: Big data / distributed
+tool_kind: Server
+summary: In-memory data cube for interactive aggregation queries over large spatiotemporal point datasets.
+open_source: 'yes'
+license: EPL-1.0
+language: C
+interfaces:
+- REST
+- CLI
+call:
+- cli
+- rest
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/laurolins/nanocube
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 368

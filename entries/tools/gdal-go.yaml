@@ -1,0 +1,22 @@
+id: gdal-go
+kind: tool
+name: gdal (Go)
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Go wrapper for GDAL to read, write and process raster and vector data.
+open_source: 'yes'
+license: MIT
+language: Go
+interfaces:
+- Go
+call:
+- go
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/lukeroth/gdal
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 25

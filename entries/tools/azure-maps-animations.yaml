@@ -1,0 +1,23 @@
+id: azure-maps-animations
+kind: tool
+name: azure-maps-animations
+category: Display & visualization
+subcategory: Time & animation
+tool_kind: Library
+summary: 'Animation library for the Azure Maps Web SDK: moving points, line drawing and time-series playback.'
+open_source: 'yes'
+license: MIT
+language: TypeScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/Azure-Samples/azure-maps-animations
+notes: Official Azure sample module
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 226

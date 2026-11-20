@@ -1,0 +1,22 @@
+id: pydelatin
+kind: tool
+name: pydelatin
+category: Point clouds, LiDAR & 3D
+subcategory: Point cloud & mesh libraries
+tool_kind: Library
+summary: Generates terrain meshes from elevation rasters with the Delatin algorithm.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/kylebarron/pydelatin
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 326

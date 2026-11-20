@@ -1,0 +1,22 @@
+id: gemgis
+kind: tool
+name: GemGIS
+category: Desktop GIS & analysis engines
+subcategory: Python vector analysis
+tool_kind: Library
+summary: Python library that prepares spatial data for geological modelling tools such as GemPy.
+open_source: 'yes'
+license: LGPL-3.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/cgre-aachen/gemgis
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 141

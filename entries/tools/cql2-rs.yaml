@@ -1,0 +1,27 @@
+id: cql2-rs
+kind: tool
+name: cql2-rs
+category: Servers, standards, tiles & catalogs
+subcategory: OGC API standards
+tool_kind: Library
+summary: Rust library with Python bindings that parses, validates and converts OGC CQL2 filter expressions.
+open_source: 'yes'
+license: MIT
+language: Rust
+interfaces:
+- Rust
+- Python
+- CLI
+call:
+- python
+- cli
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/developmentseed/cql2-rs
+notes: Development Seed
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 362

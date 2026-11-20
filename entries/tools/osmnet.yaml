@@ -1,0 +1,23 @@
+id: osmnet
+kind: tool
+name: OSMnet
+category: OSM & Overture tooling
+subcategory: Query services
+tool_kind: Library
+summary: Downloads OpenStreetMap street networks for use in network accessibility analysis.
+open_source: 'yes'
+license: AGPL-3.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/UDST/osmnet
+notes: Used by pandana
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 310

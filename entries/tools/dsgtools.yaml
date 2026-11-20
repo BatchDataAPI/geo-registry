@@ -1,0 +1,24 @@
+id: dsgtools
+kind: tool
+name: DsgTools
+category: Desktop GIS & analysis engines
+subcategory: Open-source desktop GIS
+tool_kind: Extension
+summary: QGIS plugin for topographic data production, validation and editing workflows.
+open_source: 'yes'
+license: GPL-2.0
+language: Python
+interfaces:
+- plugin
+- GUI
+call:
+- plugin
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/dsgoficial/DsgTools
+notes: QGIS plugin from the Brazilian Army Geographic Service
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 133

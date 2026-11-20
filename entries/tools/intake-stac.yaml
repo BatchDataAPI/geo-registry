@@ -1,0 +1,24 @@
+id: intake-stac
+kind: tool
+name: Intake-stac
+category: Imagery, remote sensing & GeoAI
+subcategory: STAC ecosystem
+tool_kind: Library
+summary: Opens STAC catalogues and items as Intake data sources that load into xarray.
+open_source: 'yes'
+license: BSD-2-Clause
+language: Python
+interfaces:
+- Python
+- STAC
+call:
+- python
+- stac
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/intake/intake-stac
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 291

@@ -1,0 +1,25 @@
+id: pprepair
+kind: tool
+name: pprepair
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Toolkit/CLI
+summary: Validates and repairs gaps and overlaps in planar partitions such as land parcels.
+open_source: 'yes'
+license: GPL-3.0
+language: C++
+interfaces:
+- CLI
+- C/C++
+call:
+- cli
+- c-cpp
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/tudelft3d/pprepair
+notes: TU Delft 3D geoinformation group
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 74

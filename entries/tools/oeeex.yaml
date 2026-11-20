@@ -1,0 +1,22 @@
+id: oeeex
+kind: tool
+name: OEEex
+category: Imagery, remote sensing & GeoAI
+subcategory: Cloud EO platforms
+tool_kind: Extension
+summary: Chrome extension that adds features to the Google Earth Engine code editor.
+open_source: 'yes'
+license: GPL-3.0
+language: JavaScript
+interfaces:
+- plugin
+call:
+- plugin
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/open-geocomputing/OEEex
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 255

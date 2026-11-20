@@ -1,0 +1,25 @@
+id: geodesk
+kind: tool
+name: GeoDesk
+category: OSM & Overture tooling
+subcategory: PBF processing
+tool_kind: Database
+summary: Turns OpenStreetMap extracts into a compact file database that can be queried quickly from Java
+  or a CLI.
+open_source: 'yes'
+license: Apache-2.0
+language: Java
+interfaces:
+- Java
+- CLI
+call:
+- cli
+- java
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/clarisma/geodesk
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 301

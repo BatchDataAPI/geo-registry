@@ -1,0 +1,21 @@
+id: ffi-geos
+kind: tool
+name: ffi-geos
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Ruby bindings to GEOS for geometry operations, loaded through FFI.
+open_source: 'yes'
+license: MIT
+language: Ruby
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/dark-panda/ffi-geos
+notes: Ruby binding of GEOS
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 56

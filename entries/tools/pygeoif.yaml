@@ -1,0 +1,22 @@
+id: pygeoif
+kind: tool
+name: pygeoif
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Small pure-Python geometry classes implementing the __geo_interface__ protocol.
+open_source: 'yes'
+license: LGPL-2.1
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/cleder/pygeoif
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 76

@@ -1,0 +1,22 @@
+id: geojs
+kind: tool
+name: GeoJS
+category: Display & visualization
+subcategory: Web map libraries
+tool_kind: Library
+summary: JavaScript library for fast interactive maps of large scientific and geospatial datasets.
+open_source: 'yes'
+license: Apache-2.0
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/OpenGeoscience/geojs
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 233

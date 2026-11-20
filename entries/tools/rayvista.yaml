@@ -1,0 +1,23 @@
+id: rayvista
+kind: tool
+name: rayvista
+category: Display & visualization
+subcategory: R mapping
+tool_kind: Library
+summary: Adds a one-call 3D landscape view of any place on Earth to rayshader.
+open_source: 'yes'
+license: GPL-3.0
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/h-a-graham/rayvista
+notes: rayshader add-on
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 223

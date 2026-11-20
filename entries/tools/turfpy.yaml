@@ -1,0 +1,23 @@
+id: turfpy
+kind: tool
+name: Turfpy
+category: Desktop GIS & analysis engines
+subcategory: Python vector analysis
+tool_kind: Library
+summary: Python port of Turf.js for measuring, transforming and analysing GeoJSON geometries.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/omanges/turfpy
+notes: Python port of Turf.js
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 144

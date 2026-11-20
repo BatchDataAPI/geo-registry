@@ -1,0 +1,29 @@
+id: eodag
+kind: tool
+name: EODAG
+category: Imagery, remote sensing & GeoAI
+subcategory: STAC ecosystem
+tool_kind: Toolkit/CLI
+summary: Python library and CLI that searches and downloads Earth observation products from many providers
+  through one API.
+open_source: 'yes'
+license: Apache-2.0
+language: Python
+interfaces:
+- Python
+- CLI
+- REST
+- STAC
+call:
+- python
+- cli
+- rest
+- stac
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/CS-SI/eodag
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 289

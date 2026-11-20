@@ -1,0 +1,23 @@
+id: soildb
+kind: tool
+name: soilDB
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Queries US soil survey databases (SSURGO, NASIS, SDA and others) from R.
+open_source: 'yes'
+license: GPL-3.0
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/ncss-tech/soilDB
+notes: USDA-NRCS soil data
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 41

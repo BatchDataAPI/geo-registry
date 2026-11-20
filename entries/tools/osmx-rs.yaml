@@ -1,0 +1,25 @@
+id: osmx-rs
+kind: tool
+name: osmx-rs
+category: OSM & Overture tooling
+subcategory: PBF processing
+tool_kind: Library
+summary: Rust port of OSMExpress, a fast database file format for querying OpenStreetMap data.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- Rust
+- CLI
+call:
+- cli
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/jake-low/osmx-rs
+notes: Port of OSMExpress
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 307

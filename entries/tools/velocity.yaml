@@ -1,0 +1,25 @@
+id: velocity
+kind: tool
+name: Velocity
+category: AI, agents & MCP for GIS
+subcategory: General GIS MCP servers
+tool_kind: Application
+summary: Self-hosted aircraft and ship tracker that stores history and exposes live and past positions
+  through an MCP server.
+open_source: 'yes'
+license: AGPL-3.0
+language: Python
+interfaces:
+- GUI
+- MCP
+call:
+- mcp
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/AndrewCTF/velocity
+notes: Uses keyless public ADS-B/AIS feeds.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 6

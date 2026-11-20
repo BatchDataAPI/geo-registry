@@ -1,0 +1,23 @@
+id: forestoolboxrs
+kind: tool
+name: ForesToolboxRS
+category: Imagery, remote sensing & GeoAI
+subcategory: Change detection
+tool_kind: Library
+summary: Remote sensing tools for forest monitoring, such as change detection and classification in R.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/ytarazona/ForesToolboxRS
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 246

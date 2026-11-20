@@ -1,0 +1,24 @@
+id: ncdfgeom
+kind: tool
+name: ncdfgeom
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: USGS R package for reading and writing geometries and time series in NetCDF-CF files.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/DOI-USGS/ncdfgeom
+notes: USGS
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 35

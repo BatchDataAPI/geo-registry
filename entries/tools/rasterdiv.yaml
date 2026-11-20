@@ -1,0 +1,23 @@
+id: rasterdiv
+kind: tool
+name: rasterdiv
+category: Imagery, remote sensing & GeoAI
+subcategory: Remote sensing processing
+tool_kind: Library
+summary: R package that computes diversity indices from rasters such as NDVI to map ecological heterogeneity.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mattmar/rasterdiv
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 275

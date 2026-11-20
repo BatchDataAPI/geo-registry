@@ -1,0 +1,24 @@
+id: poprf
+kind: tool
+name: popRF
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: R package that disaggregates census population to grid cells with random forests.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/wpgp/popRF
+notes: From WorldPop; low activity
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 162
