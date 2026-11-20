@@ -1,0 +1,24 @@
+id: elevation
+kind: tool
+name: elevation
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Toolkit/CLI
+summary: Python CLI that downloads, caches and clips global DEMs such as Copernicus DEM and SRTM.
+open_source: 'yes'
+license: Apache-2.0
+language: Python
+interfaces:
+- Python
+- CLI
+call:
+- python
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/bopen/elevation
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 23

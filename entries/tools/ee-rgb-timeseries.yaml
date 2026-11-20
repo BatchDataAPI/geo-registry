@@ -1,0 +1,23 @@
+id: ee-rgb-timeseries
+kind: tool
+name: ee-rgb-timeseries
+category: Imagery, remote sensing & GeoAI
+subcategory: Time series
+tool_kind: Library
+summary: Earth Engine module that colours time series chart points with each date's RGB colour.
+open_source: 'yes'
+license: Apache-2.0
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/jdbcode/ee-rgb-timeseries
+notes: For Google Earth Engine
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 295

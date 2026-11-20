@@ -1,0 +1,22 @@
+id: go-shp
+kind: tool
+name: go-shp
+category: Core libraries & formats
+subcategory: Vector formats
+tool_kind: Library
+summary: Pure Go library for reading and writing Esri Shapefiles.
+open_source: 'yes'
+license: MIT
+language: Go
+interfaces:
+- Go
+call:
+- go
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/jonas-p/go-shp
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 117

@@ -1,0 +1,25 @@
+id: geod-agent
+kind: tool
+name: GeoD Agent
+category: AI, agents & MCP for GIS
+subcategory: LLM GIS agents & research
+tool_kind: Application
+summary: Windows desktop AI agent that downloads imagery, processes it locally and exports GeoTIFFs through
+  chat.
+open_source: 'yes'
+license: MIT
+language: JavaScript
+interfaces:
+- GUI
+- MCP
+call:
+- mcp
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/gaopengbin/geod-agent
+notes: Young project (9 stars)
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 9

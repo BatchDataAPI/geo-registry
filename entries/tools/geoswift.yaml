@@ -1,0 +1,20 @@
+id: geoswift
+kind: tool
+name: GEOSwift
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Swift wrapper around GEOS for geometry operations and WKT/GeoJSON handling on Apple platforms.
+open_source: 'yes'
+license: MIT
+language: Swift
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/GEOSwift/GEOSwift
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 67

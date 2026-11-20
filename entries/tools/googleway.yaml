@@ -1,0 +1,25 @@
+id: googleway
+kind: tool
+name: googleway
+category: Commercial GIS platforms & APIs
+subcategory: Google
+tool_kind: Library
+summary: Calls Google Maps APIs (directions, geocoding, places, elevation) and draws Google maps from
+  R.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/SymbolixAU/googleway
+notes: R client for Google Maps Platform
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 16

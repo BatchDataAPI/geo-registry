@@ -1,0 +1,22 @@
+id: geo-clojure
+kind: tool
+name: geo (Clojure)
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Clojure library for geohashes, polygons and other world geometry, wrapping JTS and Spatial4j.
+open_source: 'yes'
+license: EPL-1.0
+language: Clojure
+interfaces:
+- Java
+call:
+- java
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/Factual/geo
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 59

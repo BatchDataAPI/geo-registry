@@ -1,0 +1,24 @@
+id: leaflet-elevation
+kind: tool
+name: leaflet-elevation
+category: Display & visualization
+subcategory: Leaflet plugins
+tool_kind: Extension
+summary: Leaflet plugin that draws elevation profiles for GPX and GeoJSON tracks.
+open_source: 'yes'
+license: GPL-3.0
+language: JavaScript
+interfaces:
+- JS
+- plugin
+call:
+- js
+- plugin
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/Raruto/leaflet-elevation
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 208

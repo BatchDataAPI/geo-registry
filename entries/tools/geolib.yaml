@@ -1,0 +1,23 @@
+id: geolib
+kind: tool
+name: geolib
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Dependency-free JavaScript functions for distances, bearings, bounds and point-in-polygon tests
+  on coordinates.
+open_source: 'yes'
+license: MIT
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/manuelbieh/geolib
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 64

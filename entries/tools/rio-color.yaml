@@ -1,0 +1,25 @@
+id: rio-color
+kind: tool
+name: rio-color
+category: Imagery, remote sensing & GeoAI
+subcategory: Remote sensing processing
+tool_kind: Extension
+summary: Rasterio plugin for colour and contrast adjustments of satellite images.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+- CLI
+call:
+- python
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mapbox/rio-color
+notes: Rasterio plugin
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 276

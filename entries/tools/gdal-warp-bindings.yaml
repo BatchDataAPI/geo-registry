@@ -1,0 +1,25 @@
+id: gdal-warp-bindings
+kind: tool
+name: GDAL Warp Bindings
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Thread-safe JVM bindings to GDAL warp for reading reprojected raster windows.
+open_source: 'yes'
+license: Apache-2.0
+language: C++
+interfaces:
+- Java
+- C/C++
+call:
+- c-cpp
+- java
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/geotrellis/gdal-warp-bindings
+notes: Used by GeoTrellis
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 26

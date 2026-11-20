@@ -1,0 +1,25 @@
+id: gee-s1-ard
+kind: tool
+name: gee_s1_ard
+category: Imagery, remote sensing & GeoAI
+subcategory: SAR processing
+tool_kind: Library
+summary: Prepares analysis-ready Sentinel-1 SAR collections in Earth Engine with border noise, speckle
+  and terrain correction.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+- JS
+call:
+- python
+- js
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/adugnag/gee_s1_ard
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 286

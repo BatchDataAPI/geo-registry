@@ -1,0 +1,23 @@
+id: geofileops
+kind: tool
+name: geofileops
+category: Desktop GIS & analysis engines
+subcategory: Python vector analysis
+tool_kind: Library
+summary: Speeds up common operations on large vector files (buffer, overlay, dissolve) using parallel
+  processing.
+open_source: 'yes'
+license: BSD-3-Clause
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/geofileops/geofileops
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 142

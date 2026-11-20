@@ -1,0 +1,25 @@
+id: geo-index
+kind: tool
+name: geo-index
+category: Core libraries & formats
+subcategory: Spatial indexing
+tool_kind: Library
+summary: Fast packed, immutable spatial indexes (R-tree and KD-tree) usable from Rust and Python.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- Rust
+- Python
+call:
+- python
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/georust/geo-index
+notes: GeoRust project
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 100

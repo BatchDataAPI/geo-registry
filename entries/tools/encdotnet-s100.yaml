@@ -1,0 +1,25 @@
+id: encdotnet-s100
+kind: tool
+name: EncDotNet.S100
+category: AI, agents & MCP for GIS
+subcategory: General GIS MCP servers
+tool_kind: Library
+summary: .NET libraries and an MCP server for reading S-100 nautical charts, bathymetry, currents and
+  water levels.
+open_source: 'yes'
+license: MIT
+language: C#
+interfaces:
+- .NET
+- MCP
+call:
+- mcp
+- dotnet
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/philliphoff/EncDotNet.S100
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 5

@@ -1,0 +1,24 @@
+id: mapshaper-proj
+kind: tool
+name: mapshaper-proj
+category: Core libraries & formats
+subcategory: Projection & CRS
+tool_kind: Library
+summary: JavaScript port of Proj.4 used by Mapshaper for coordinate projections.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mbloch/mapshaper-proj
+notes: Used inside Mapshaper
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 89

@@ -1,0 +1,24 @@
+id: nlmpy
+kind: tool
+name: NLMpy
+category: Desktop GIS & analysis engines
+subcategory: Python raster & array analysis
+tool_kind: Library
+summary: Generates neutral landscape model rasters (random, clustered, gradient patterns) for testing
+  landscape ecology hypotheses.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://pypi.org/project/nlmpy/
+notes: Last release Oct 2023; repo github.com/tretherington/nlmpy
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 138

@@ -1,0 +1,22 @@
+id: geobuf
+kind: tool
+name: Geobuf
+category: Core libraries & formats
+subcategory: Vector formats
+tool_kind: Format/Standard
+summary: Compact protocol-buffers encoding of GeoJSON, with a JavaScript encoder and decoder.
+open_source: 'yes'
+license: ISC
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mapbox/geobuf
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 110

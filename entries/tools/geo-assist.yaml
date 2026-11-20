@@ -1,0 +1,22 @@
+id: geo-assist
+kind: tool
+name: Geo Assist
+category: Core libraries & formats
+subcategory: Spatial indexing
+tool_kind: Library
+summary: In-memory spatial index (R-tree) for storing and querying geometries in Java applications.
+open_source: 'yes'
+license: Apache-2.0
+language: Java
+interfaces:
+- Java
+call:
+- java
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/thegeekyasian/geo-assist
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 99

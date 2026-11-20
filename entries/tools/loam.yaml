@@ -1,0 +1,23 @@
+id: loam
+kind: tool
+name: Loam
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Runs GDAL in the browser through WebAssembly to read and convert raster and vector files.
+open_source: 'yes'
+license: Apache-2.0
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/azavea/loam
+notes: JavaScript wrapper of GDAL
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 33

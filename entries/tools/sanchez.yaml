@@ -1,0 +1,22 @@
+id: sanchez
+kind: tool
+name: Sanchez
+category: Imagery, remote sensing & GeoAI
+subcategory: Remote sensing processing
+tool_kind: Toolkit/CLI
+summary: Creates false-colour composites and animations from geostationary weather satellite images.
+open_source: 'yes'
+license: Apache-2.0
+language: C#
+interfaces:
+- CLI
+call:
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/nullpainter/sanchez
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 278

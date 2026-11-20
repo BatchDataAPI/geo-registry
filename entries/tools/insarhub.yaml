@@ -1,0 +1,23 @@
+id: insarhub
+kind: tool
+name: InSARHub
+category: Imagery, remote sensing & GeoAI
+subcategory: SAR processing
+tool_kind: Toolkit/CLI
+summary: Runs end-to-end InSAR and time series deformation processing in Python, with an optional GUI.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+- GUI
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/jldz9/InSARHub
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 287

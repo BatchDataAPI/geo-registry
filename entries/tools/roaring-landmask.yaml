@@ -1,0 +1,25 @@
+id: roaring-landmask
+kind: tool
+name: roaring-landmask
+category: Core libraries & formats
+subcategory: Spatial indexing
+tool_kind: Library
+summary: Fast, memory-light check of whether a point is on land or sea, based on GSHHG and OpenStreetMap.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Rust
+interfaces:
+- Python
+- Rust
+call:
+- python
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/gauteh/roaring-landmask
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 103

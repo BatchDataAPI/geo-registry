@@ -1,0 +1,25 @@
+id: opensky-network-api
+kind: tool
+name: OpenSky Network API
+category: Open data sources
+subcategory: Global – transport
+tool_kind: Service/API
+summary: Python and Java clients for the OpenSky Network REST API giving live and recent aircraft positions.
+open_source: 'yes'
+license: GPL-3.0
+interfaces:
+- REST
+- Python
+- Java
+call:
+- python
+- rest
+- java
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/openskynetwork/opensky-api
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 314

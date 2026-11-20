@@ -1,0 +1,23 @@
+id: cdsapi
+kind: tool
+name: cdsapi
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Python client for requesting and downloading data from the Copernicus Climate Data Store.
+open_source: 'yes'
+license: Apache-2.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/ecmwf/cdsapi
+notes: Needs a CDS account.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 20

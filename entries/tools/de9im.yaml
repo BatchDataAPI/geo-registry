@@ -1,0 +1,22 @@
+id: de9im
+kind: tool
+name: de9im
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: JavaScript library of DE-9IM spatial predicates (contains, intersects and so on) for GeoJSON.
+open_source: 'yes'
+license: MIT
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/dpmcmlxxvi/de9im
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 52

@@ -1,0 +1,22 @@
+id: arc-js
+kind: tool
+name: arc.js
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Computes great-circle routes and returns them as GeoJSON or WKT lines.
+open_source: 'yes'
+license: BSD-2-Clause
+language: TypeScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/springmeyer/arc.js
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 49

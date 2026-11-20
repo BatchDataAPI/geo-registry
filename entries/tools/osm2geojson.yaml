@@ -1,0 +1,22 @@
+id: osm2geojson
+kind: tool
+name: osm2geojson
+category: OSM & Overture tooling
+subcategory: Query services
+tool_kind: Library
+summary: Converts OSM XML and Overpass API responses into GeoJSON.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/rapkin/osm2geojson
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 309

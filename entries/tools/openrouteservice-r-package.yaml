@@ -1,0 +1,24 @@
+id: openrouteservice-r-package
+kind: tool
+name: openrouteservice (R package)
+category: Routing, networks, geocoding & LRS
+subcategory: Routing engines
+tool_kind: Library
+summary: R client for openrouteservice routing, isochrones, matrix, geocoding and POI APIs.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/GIScience/openrouteservice-r
+notes: Needs an openrouteservice API key or own instance.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 347

@@ -1,0 +1,25 @@
+id: laz-perf
+kind: tool
+name: laz-perf
+category: Point clouds, LiDAR & 3D
+subcategory: LAS/LAZ libraries
+tool_kind: Library
+summary: Fast LAZ compression and decompression for C++ and JavaScript (WebAssembly).
+open_source: 'yes'
+license: Apache-2.0
+language: C++
+interfaces:
+- C/C++
+- JS
+call:
+- js
+- c-cpp
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/hobuinc/laz-perf
+notes: Used by PDAL
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 320

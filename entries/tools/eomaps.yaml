@@ -1,0 +1,22 @@
+id: eomaps
+kind: tool
+name: EOmaps
+category: Display & visualization
+subcategory: Python notebook & app mapping
+tool_kind: Library
+summary: Python library for interactive maps that visualise, analyse and compare large geographic datasets.
+open_source: 'yes'
+license: BSD-3-Clause
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/raphaelquast/EOmaps
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 218

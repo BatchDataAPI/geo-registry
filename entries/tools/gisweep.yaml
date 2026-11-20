@@ -1,0 +1,23 @@
+id: gisweep
+kind: tool
+name: gisweep
+category: Servers, standards, tiles & catalogs
+subcategory: Esri REST & industry specs
+tool_kind: Toolkit/CLI
+summary: Scanner that audits ArcGIS REST and WMS/WFS services for open write access and exposed secrets.
+open_source: 'yes'
+license: Apache-2.0
+language: Python
+interfaces:
+- CLI
+call:
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/enisgetmez/gisweep
+notes: Security tool for service admins
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 358

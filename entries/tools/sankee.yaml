@@ -1,0 +1,23 @@
+id: sankee
+kind: tool
+name: sankee
+category: Imagery, remote sensing & GeoAI
+subcategory: Change detection
+tool_kind: Library
+summary: Draws Sankey diagrams of land cover class changes over time from Earth Engine data.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/aazuspan/sankee
+notes: For Google Earth Engine
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 247

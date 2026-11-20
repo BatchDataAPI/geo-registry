@@ -1,0 +1,22 @@
+id: qbin
+kind: tool
+name: qbin
+category: Core libraries & formats
+subcategory: Discrete global grids & geocodes
+tool_kind: Library
+summary: Rust crate for Quadbin, a quadkey-like hierarchical tile index stored as a 64-bit integer.
+open_source: 'yes'
+license: MIT
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/atsyplenkov/qbin
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 46

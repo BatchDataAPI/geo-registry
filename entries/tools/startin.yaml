@@ -1,0 +1,23 @@
+id: startin
+kind: tool
+name: startin
+category: Desktop GIS & analysis engines
+subcategory: Terrain & hydrology engines
+tool_kind: Library
+summary: Delaunay triangulator for building and editing TINs from elevation points.
+open_source: 'yes'
+license: MIT
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/hugoledoux/startin
+notes: 'Python binding: startinpy'
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 188

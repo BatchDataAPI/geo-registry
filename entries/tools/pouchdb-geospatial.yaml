@@ -1,0 +1,22 @@
+id: pouchdb-geospatial
+kind: tool
+name: pouchdb-geospatial
+category: Spatial databases & query engines
+subcategory: Embedded / file databases
+tool_kind: Extension
+summary: PouchDB plugin for spatial queries on GeoJSON documents in the browser.
+open_source: 'yes'
+license: Apache-2.0
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/dpmcmlxxvi/pouchdb-geospatial
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 374

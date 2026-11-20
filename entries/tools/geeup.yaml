@@ -1,0 +1,25 @@
+id: geeup
+kind: tool
+name: geeup
+category: Imagery, remote sensing & GeoAI
+subcategory: Cloud EO platforms
+tool_kind: Toolkit/CLI
+summary: Uploads rasters and tables to Google Earth Engine in bulk from the command line.
+open_source: 'yes'
+license: Apache-2.0
+language: Python
+interfaces:
+- Python
+- CLI
+call:
+- python
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/samapriya/geeup
+notes: For Google Earth Engine
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 254

@@ -1,0 +1,21 @@
+id: turf-dart
+kind: tool
+name: turf_dart
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Turf-style geospatial analysis on GeoJSON in pure Dart.
+open_source: 'yes'
+license: MIT
+language: Dart
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/dartclub/turf_dart
+notes: Dart port of Turf.js
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 85

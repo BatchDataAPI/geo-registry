@@ -1,0 +1,22 @@
+id: earthpy
+kind: tool
+name: EarthPy
+category: Desktop GIS & analysis engines
+subcategory: Python raster & array analysis
+tool_kind: Library
+summary: Python helpers for plotting and processing raster and vector data, such as band stacks and hillshades.
+open_source: 'yes'
+license: BSD-3-Clause
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/earthlab/earthpy
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 136

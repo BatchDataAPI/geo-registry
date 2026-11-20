@@ -1,0 +1,23 @@
+id: map-vectorizer
+kind: tool
+name: map-vectorizer
+category: Imagery, remote sensing & GeoAI
+subcategory: Remote sensing processing
+tool_kind: Toolkit/CLI
+summary: Extracts building polygons and their attributes from scanned historical map images.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- CLI
+call:
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/nypl-spacetime/map-vectorizer
+notes: From NYPL; older project.
+status: active
+review:
+  state: seeded
+  source: awesome-spatial
+  source_row: 380

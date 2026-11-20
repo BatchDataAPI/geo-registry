@@ -1,0 +1,22 @@
+id: datamaps
+kind: tool
+name: Datamaps
+category: Display & visualization
+subcategory: Charting & dataviz libraries with maps
+tool_kind: Library
+summary: Single-file D3 library for choropleth and bubble SVG maps of world countries and US states.
+open_source: 'yes'
+license: MIT
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/markmarkoh/datamaps
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 198

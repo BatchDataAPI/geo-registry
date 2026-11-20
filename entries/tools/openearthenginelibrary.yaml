@@ -1,0 +1,24 @@
+id: openearthenginelibrary
+kind: tool
+name: OpenEarthEngineLibrary
+category: Imagery, remote sensing & GeoAI
+subcategory: Cloud EO platforms
+tool_kind: Library
+summary: Shared library of helper functions for Google Earth Engine scripts.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/open-geocomputing/OpenEarthEngineLibrary
+notes: For Google Earth Engine
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 256

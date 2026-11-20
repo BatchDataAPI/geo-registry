@@ -1,0 +1,23 @@
+id: hastings
+kind: tool
+name: Hastings
+category: Spatial databases & query engines
+subcategory: NoSQL / search / KV
+tool_kind: Extension
+summary: Adds geospatial indexing and queries to Apache CouchDB 2.
+open_source: 'yes'
+license: Apache-2.0
+language: Erlang
+interfaces:
+- REST
+call:
+- rest
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/cloudant-labs/hastings
+notes: Cloudant; check compatibility with current CouchDB
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 376

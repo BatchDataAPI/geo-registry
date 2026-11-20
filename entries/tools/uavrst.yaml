@@ -1,0 +1,24 @@
+id: uavrst
+kind: tool
+name: uavRst
+category: Imagery, remote sensing & GeoAI
+subcategory: Photogrammetry & drone
+tool_kind: Library
+summary: R toolbox for processing UAV imagery, such as tree segmentation and canopy metrics.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/gisma/uavRst
+notes: No licence file
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 271

@@ -1,0 +1,22 @@
+id: hmm
+kind: tool
+name: hmm
+category: Desktop GIS & analysis engines
+subcategory: Terrain & hydrology engines
+tool_kind: Toolkit/CLI
+summary: Command-line tool that turns heightmap images into simplified triangle meshes such as STL.
+open_source: 'yes'
+license: MIT
+language: C++
+interfaces:
+- CLI
+call:
+- cli
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/fogleman/hmm
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 184

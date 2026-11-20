@@ -1,0 +1,24 @@
+id: spl-js
+kind: tool
+name: spl.js
+category: Spatial databases & query engines
+subcategory: Embedded / file databases
+tool_kind: Library
+summary: Runs SpatiaLite (SQLite with GEOS and PROJ) in the browser and Node via WebAssembly.
+open_source: 'yes'
+license: GPL-3.0
+language: JavaScript
+interfaces:
+- JS
+- SQL
+call:
+- js
+- sql
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/jvail/spl.js
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 375

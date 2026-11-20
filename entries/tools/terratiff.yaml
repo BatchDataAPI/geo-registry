@@ -1,0 +1,24 @@
+id: terratiff
+kind: tool
+name: TerraTiff
+category: Core libraries & formats
+subcategory: Raster formats
+tool_kind: Library
+summary: Small GDAL-free Python package to read, write, resample and mask GeoTIFFs with NumPy.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/Hejarshahabi/TerraTiff
+notes: Young, small project
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 98

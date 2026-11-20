@@ -1,0 +1,23 @@
+id: azure-maps-geolocation-control
+kind: tool
+name: azure-maps-geolocation-control
+category: Display & visualization
+subcategory: Web map libraries
+tool_kind: Extension
+summary: Azure Maps Web SDK control that shows and follows the user's location from the browser.
+open_source: 'yes'
+license: MIT
+language: TypeScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/Azure-Samples/azure-maps-geolocation-control
+notes: Official Azure sample module
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 231

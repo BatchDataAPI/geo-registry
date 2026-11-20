@@ -1,0 +1,24 @@
+id: proj4wkt
+kind: tool
+name: proj4wkt
+category: Core libraries & formats
+subcategory: Projection & CRS
+tool_kind: Library
+summary: Rust crate that converts WKT coordinate system definitions into PROJ strings.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/3liz/proj4wkt-rs
+notes: Companion to proj4rs (3Liz)
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 91

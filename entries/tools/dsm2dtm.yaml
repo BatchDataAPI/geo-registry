@@ -1,0 +1,24 @@
+id: dsm2dtm
+kind: tool
+name: dsm2dtm
+category: Desktop GIS & analysis engines
+subcategory: Terrain & hydrology engines
+tool_kind: Library
+summary: Derives a bare-earth terrain model (DTM) from a surface model (DSM).
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+- CLI
+call:
+- python
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/seedlit/dsm2dtm
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 183

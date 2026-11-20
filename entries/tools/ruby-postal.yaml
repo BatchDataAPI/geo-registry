@@ -1,0 +1,21 @@
+id: ruby-postal
+kind: tool
+name: ruby_postal
+category: Routing, networks, geocoding & LRS
+subcategory: Geocoding engines & libraries
+tool_kind: Library
+summary: Parses and normalises international street addresses from Ruby via libpostal.
+open_source: 'yes'
+license: MIT
+language: Ruby
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/openvenues/ruby_postal
+notes: Ruby binding of libpostal
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 343

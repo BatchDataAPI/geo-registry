@@ -1,0 +1,22 @@
+id: biodivmapr
+kind: tool
+name: biodivMapR
+category: Imagery, remote sensing & GeoAI
+subcategory: Hyperspectral
+tool_kind: Library
+summary: Maps alpha and beta diversity of vegetation from spectral images in R.
+open_source: 'yes'
+license: GPL-3.0
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/jbferet/biodivMapR
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 265

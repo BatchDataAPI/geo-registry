@@ -1,0 +1,23 @@
+id: etiles
+kind: tool
+name: etiles
+category: Point clouds, LiDAR & 3D
+subcategory: 3D tiles & streaming formats
+tool_kind: Library
+summary: Rust library for reading and processing 3D Tiles datasets.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/tum-gis/etiles
+notes: TUM GIS
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 315

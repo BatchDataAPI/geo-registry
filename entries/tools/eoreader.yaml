@@ -1,0 +1,23 @@
+id: eoreader
+kind: tool
+name: EOReader
+category: Imagery, remote sensing & GeoAI
+subcategory: Remote sensing processing
+tool_kind: Library
+summary: Python library that opens optical and SAR products from many satellites with a common band and
+  mask interface.
+open_source: 'yes'
+license: Apache-2.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/sertit/eoreader
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 272

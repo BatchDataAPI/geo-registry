@@ -1,0 +1,22 @@
+id: d3-geo-voronoi
+kind: tool
+name: d3-geo-voronoi
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Voronoi diagrams and Delaunay triangulations computed on the sphere for D3.
+open_source: 'yes'
+license: ISC
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/Fil/d3-geo-voronoi
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 51

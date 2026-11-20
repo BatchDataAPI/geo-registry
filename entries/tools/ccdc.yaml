@@ -1,0 +1,20 @@
+id: ccdc
+kind: tool
+name: CCDC
+category: Imagery, remote sensing & GeoAI
+subcategory: Change detection
+tool_kind: Library
+summary: Reference CCDC algorithm for continuous land cover change detection on Landsat time series.
+open_source: 'yes'
+license: MIT
+language: MATLAB
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/GERSL/CCDC
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 243

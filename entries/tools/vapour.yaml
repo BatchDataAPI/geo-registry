@@ -1,0 +1,24 @@
+id: vapour
+kind: tool
+name: vapour
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Lightweight R access to the GDAL raster and vector APIs.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/hypertidy/vapour
+notes: R binding of GDAL
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 44

@@ -1,0 +1,24 @@
+id: marmap
+kind: tool
+name: marmap
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: R package to download, plot and analyse bathymetric and topographic data.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/ericpante/marmap
+notes: On CRAN
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 157

@@ -1,0 +1,24 @@
+id: polyclip
+kind: tool
+name: polyclip
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: R package porting the Clipper library for polygon clipping, union and offsetting.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/baddstats/polyclip
+notes: R port of Clipper; used by spatstat
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 72

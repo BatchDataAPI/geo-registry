@@ -1,0 +1,23 @@
+id: kuenm
+kind: tool
+name: kuenm
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: Calibrates and evaluates Maxent ecological niche models in R.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/marlonecobos/kuenm
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 154

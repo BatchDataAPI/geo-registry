@@ -1,0 +1,20 @@
+id: geokit
+kind: tool
+name: Geokit
+category: Routing, networks, geocoding & LRS
+subcategory: Geocoding engines & libraries
+tool_kind: Library
+summary: Ruby gem for geocoding through several providers plus distance and heading calculations.
+open_source: 'yes'
+license: MIT
+language: Ruby
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/geokit/geokit
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 339

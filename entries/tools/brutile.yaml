@@ -1,0 +1,22 @@
+id: brutile
+kind: tool
+name: BruTile
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: .NET library for accessing tile services such as OpenStreetMap, WMTS and TMS.
+open_source: 'yes'
+license: Apache-2.0
+language: C#
+interfaces:
+- .NET
+call:
+- dotnet
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/BruTile/BruTile
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 19

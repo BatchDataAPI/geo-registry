@@ -1,0 +1,26 @@
+id: rio-hist
+kind: tool
+name: rio-hist
+category: Imagery, remote sensing & GeoAI
+subcategory: Remote sensing processing
+tool_kind: Extension
+summary: Rasterio plugin that matches the histogram of one image to another.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Python
+interfaces:
+- Python
+- CLI
+call:
+- python
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mapbox/rio-hist
+notes: Rasterio plugin
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 277

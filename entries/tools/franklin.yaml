@@ -1,0 +1,26 @@
+id: franklin
+kind: tool
+name: Franklin
+category: Imagery, remote sensing & GeoAI
+subcategory: STAC ecosystem
+tool_kind: Server
+summary: Web server that serves STAC catalogues through STAC API and OGC API Features.
+open_source: 'yes'
+license: Apache-2.0
+language: Scala
+interfaces:
+- REST
+- OGC
+- STAC
+call:
+- rest
+- ogc
+- stac
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/azavea/franklin
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 290

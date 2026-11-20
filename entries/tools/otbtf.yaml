@@ -1,0 +1,27 @@
+id: otbtf
+kind: tool
+name: otbtf
+category: Imagery, remote sensing & GeoAI
+subcategory: GeoAI / deep learning
+tool_kind: Extension
+summary: Orfeo ToolBox module that runs and trains TensorFlow models on large remote sensing images.
+open_source: 'yes'
+license: Apache-2.0
+language: C++
+interfaces:
+- Python
+- CLI
+- C/C++
+call:
+- python
+- cli
+- c-cpp
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/remicres/otbtf
+notes: Remote module for Orfeo ToolBox
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 260

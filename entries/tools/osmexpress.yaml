@@ -1,0 +1,24 @@
+id: osmexpress
+kind: tool
+name: OSMExpress
+category: OSM & Overture tooling
+subcategory: PBF processing
+tool_kind: Toolkit/CLI
+summary: Database file format and CLI for OpenStreetMap data with fast region extracts and minutely updates.
+open_source: 'yes'
+license: BSD-2-Clause
+language: C++
+interfaces:
+- CLI
+- Python
+call:
+- python
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/bdon/OSMExpress
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 303

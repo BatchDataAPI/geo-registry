@@ -1,0 +1,24 @@
+id: depthmapx
+kind: tool
+name: depthmapX
+category: Routing, networks, geocoding & LRS
+subcategory: Accessibility & transport modeling
+tool_kind: Application
+summary: Desktop tool for space syntax analysis of street networks and building layouts.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: C++
+interfaces:
+- GUI
+- CLI
+call:
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/varoudis/depthmapX
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 329

@@ -1,0 +1,23 @@
+id: spyndex
+kind: tool
+name: spyndex
+category: Imagery, remote sensing & GeoAI
+subcategory: Remote sensing processing
+tool_kind: Library
+summary: Python package that computes spectral indices from the Awesome Spectral Indices catalogue on
+  arrays and rasters.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/awesome-spectral-indices/spyndex
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 283

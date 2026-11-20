@@ -1,0 +1,23 @@
+id: prioritizr
+kind: tool
+name: prioritizr
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: Plans conservation areas by solving spatial prioritisation problems with integer programming.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/prioritizr/prioritizr
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 165

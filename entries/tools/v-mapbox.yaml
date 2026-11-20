@@ -1,0 +1,22 @@
+id: v-mapbox
+kind: tool
+name: v-mapbox
+category: Display & visualization
+subcategory: MapLibre/OpenLayers ecosystem
+tool_kind: Library
+summary: Vue 3 components for building Mapbox GL and MapLibre GL maps declaratively.
+open_source: 'yes'
+license: MIT
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/vinayakkulkarni/v-mapbox
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 213

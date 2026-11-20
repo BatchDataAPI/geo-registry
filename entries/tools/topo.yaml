@@ -1,0 +1,21 @@
+id: topo
+kind: tool
+name: Topo
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Elixir library that tests spatial relationships such as intersects, contains and disjoint between
+  two geometries.
+open_source: 'yes'
+license: MIT
+language: Elixir
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/pkinney/topo
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 83

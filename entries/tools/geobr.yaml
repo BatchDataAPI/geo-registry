@@ -1,0 +1,25 @@
+id: geobr
+kind: tool
+name: geobr
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: R and Python package that downloads official Brazilian boundaries and other spatial datasets.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+- Python
+call:
+- python
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/ipea/geobr
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 149

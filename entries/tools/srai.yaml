@@ -1,0 +1,22 @@
+id: srai
+kind: tool
+name: SRAI
+category: Imagery, remote sensing & GeoAI
+subcategory: GeoAI / deep learning
+tool_kind: Library
+summary: 'Python toolkit for geospatial machine learning: loading data, regionalising and embedding areas.'
+open_source: 'yes'
+license: Apache-2.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/kraina-ai/srai
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 263

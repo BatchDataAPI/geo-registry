@@ -1,0 +1,23 @@
+id: earthengine-jl
+kind: tool
+name: EarthEngine.jl
+category: Imagery, remote sensing & GeoAI
+subcategory: Cloud EO platforms
+tool_kind: Library
+summary: Julia client for scripting Google Earth Engine through its Python API.
+open_source: 'yes'
+license: MIT
+language: Julia
+interfaces:
+- Julia
+call:
+- julia
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/KMarkert/EarthEngine.jl
+notes: Low activity; wraps earthengine-api
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 250

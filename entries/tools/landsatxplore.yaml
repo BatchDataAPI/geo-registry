@@ -1,0 +1,25 @@
+id: landsatxplore
+kind: tool
+name: landsatxplore
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Toolkit/CLI
+summary: Searches and downloads Landsat scenes from USGS EarthExplorer via Python or the command line.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+- CLI
+call:
+- python
+- cli
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/yannforget/landsatxplore
+notes: Needs a USGS EarthExplorer account
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 32

@@ -1,0 +1,24 @@
+id: siphon
+kind: tool
+name: Siphon
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Fetches atmospheric and ocean data from THREDDS servers and other remote weather data services
+  into Python.
+open_source: 'yes'
+license: BSD-3-Clause
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/unidata/siphon
+notes: Unidata project
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 40

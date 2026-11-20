@@ -1,0 +1,21 @@
+id: aide
+kind: tool
+name: AIDE
+category: Imagery, remote sensing & GeoAI
+subcategory: Labeling & training data
+tool_kind: Application
+summary: Web tool for annotating aerial images with active learning to detect wildlife.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- GUI
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/microsoft/aerial_wildlife_detection
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 267

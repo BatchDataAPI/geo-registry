@@ -1,0 +1,27 @@
+id: routee-compass
+kind: tool
+name: RouteE Compass
+category: Routing, networks, geocoding & LRS
+subcategory: Routing engines
+tool_kind: Library
+summary: Energy-aware vehicle routing engine that finds routes minimising time, distance or energy use.
+open_source: 'yes'
+license: BSD-3-Clause
+language: Rust
+interfaces:
+- Python
+- Rust
+- CLI
+call:
+- python
+- cli
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/NatLabRockies/routee-compass
+notes: From NREL (repo now under natlabrockies)
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 350

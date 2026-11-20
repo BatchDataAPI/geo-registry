@@ -1,0 +1,23 @@
+id: geosnap
+kind: tool
+name: geosnap
+category: Desktop GIS & analysis engines
+subcategory: Spatial statistics (Python / PySAL)
+tool_kind: Library
+summary: Python package for exploring, modelling and visualising neighbourhood change with census data.
+open_source: 'yes'
+license: BSD-3-Clause
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/oturns/geosnap
+notes: Part of the PySAL family.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 178

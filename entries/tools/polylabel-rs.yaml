@@ -1,0 +1,26 @@
+id: polylabel-rs
+kind: tool
+name: Polylabel-rs
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Finds the best label point inside a polygon (pole of inaccessibility) in Rust, with a C API.
+open_source: 'yes'
+license: NOASSERTION
+license_original: BlueOak-1.0.0
+language: Rust
+interfaces:
+- Rust
+- C/C++
+call:
+- c-cpp
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/urschrei/polylabel-rs
+notes: Rust port of polylabel
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 73

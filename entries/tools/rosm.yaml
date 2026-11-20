@@ -1,0 +1,23 @@
+id: rosm
+kind: tool
+name: rosm
+category: Display & visualization
+subcategory: R mapping
+tool_kind: Library
+summary: R package that downloads and plots OpenStreetMap and other web map tiles as basemaps.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/paleolimbot/rosm
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 224

@@ -1,0 +1,22 @@
+id: geoarrays-jl
+kind: tool
+name: GeoArrays.jl
+category: Desktop GIS & analysis engines
+subcategory: Julia geospatial
+tool_kind: Library
+summary: Julia package for reading, writing and working with georeferenced raster arrays via ArchGDAL.
+open_source: 'yes'
+license: MIT
+language: Julia
+interfaces:
+- Julia
+call:
+- julia
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/evetion/GeoArrays.jl
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 128

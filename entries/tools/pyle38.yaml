@@ -1,0 +1,23 @@
+id: pyle38
+kind: tool
+name: pyle38
+category: Spatial databases & query engines
+subcategory: Drivers & connectors
+tool_kind: Library
+summary: Async Python client for the Tile38 in-memory geospatial database.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/iwpnd/pyle38
+notes: Python client for Tile38
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 372

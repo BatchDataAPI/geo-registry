@@ -1,0 +1,22 @@
+id: geoblaze
+kind: tool
+name: geoblaze
+category: Core libraries & formats
+subcategory: Raster formats
+tool_kind: Library
+summary: Computes raster statistics, band math and zonal summaries on GeoTIFFs in JavaScript.
+open_source: 'yes'
+license: MIT
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/GeoTIFF/geoblaze
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 96

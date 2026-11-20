@@ -1,0 +1,23 @@
+id: maptalks-js
+kind: tool
+name: maptalks.js
+category: Display & visualization
+subcategory: Web map libraries
+tool_kind: Library
+summary: JavaScript library for interactive 2D and 3D web maps with plugins for WebGL layers.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/maptalks/maptalks.js
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 234

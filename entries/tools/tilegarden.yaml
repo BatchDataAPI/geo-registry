@@ -1,0 +1,23 @@
+id: tilegarden
+kind: tool
+name: tilegarden
+category: Servers, standards, tiles & catalogs
+subcategory: Tile generation & packaging
+tool_kind: Server
+summary: Generates raster and vector map tiles on demand with Mapnik on AWS Lambda.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: JavaScript
+interfaces:
+- REST
+call:
+- rest
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/azavea/tilegarden
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 365

@@ -1,0 +1,25 @@
+id: vue2leaflet
+kind: tool
+name: Vue2Leaflet
+category: Display & visualization
+subcategory: Leaflet plugins
+tool_kind: Extension
+summary: Vue 2 components for building Leaflet maps.
+open_source: 'yes'
+license: MIT
+language: JavaScript
+interfaces:
+- JS
+- plugin
+call:
+- js
+- plugin
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/vue-leaflet/Vue2Leaflet
+notes: For Vue 2 only, which is end-of-life.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 210

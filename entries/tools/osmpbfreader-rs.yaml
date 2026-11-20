@@ -1,0 +1,22 @@
+id: osmpbfreader-rs
+kind: tool
+name: osmpbfreader-rs
+category: OSM & Overture tooling
+subcategory: PBF processing
+tool_kind: Library
+summary: Reads OpenStreetMap PBF files in Rust, including resolving relations and ways.
+open_source: 'yes'
+license: WTFPL
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/TeXitoi/osmpbfreader-rs
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 306

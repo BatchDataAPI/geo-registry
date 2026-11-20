@@ -1,0 +1,24 @@
+id: s2p-satellite-stereo-pipeline
+kind: tool
+name: S2P (Satellite Stereo Pipeline)
+category: Imagery, remote sensing & GeoAI
+subcategory: Photogrammetry & drone
+tool_kind: Toolkit/CLI
+summary: Python library and CLI that produces elevation models from pairs of satellite images.
+open_source: 'yes'
+license: BSD-3-Clause
+language: Python
+interfaces:
+- Python
+- CLI
+call:
+- python
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/centreborelli/s2p
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 270

@@ -1,0 +1,23 @@
+id: cosmo
+kind: tool
+name: cosmo
+category: OSM & Overture tooling
+subcategory: PBF processing
+tool_kind: Toolkit/CLI
+summary: CLI that filters OSM PBF data and writes GeoParquet or GeoJSON.
+open_source: 'yes'
+license: ISC
+language: Rust
+interfaces:
+- CLI
+call:
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mvexel/cosmo
+notes: New (2 stars); by an established OSM developer
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 300

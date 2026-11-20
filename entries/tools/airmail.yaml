@@ -1,0 +1,22 @@
+id: airmail
+kind: tool
+name: Airmail
+category: Routing, networks, geocoding & LRS
+subcategory: Geocoding engines & libraries
+tool_kind: Library
+summary: Lightweight geocoder in pure Rust built from OpenStreetMap data.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/ellenhp/airmail
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 335

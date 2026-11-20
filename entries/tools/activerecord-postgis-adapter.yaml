@@ -1,0 +1,23 @@
+id: activerecord-postgis-adapter
+kind: tool
+name: activerecord-postgis-adapter
+category: Spatial databases & query engines
+subcategory: Drivers & connectors
+tool_kind: Library
+summary: Rails ActiveRecord adapter that maps PostGIS geometry columns to RGeo objects.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Ruby
+interfaces:
+- SQL
+call:
+- sql
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/rgeo/activerecord-postgis-adapter
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 370

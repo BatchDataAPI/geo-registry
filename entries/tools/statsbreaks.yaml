@@ -1,0 +1,24 @@
+id: statsbreaks
+kind: tool
+name: statsbreaks
+category: Display & visualization
+subcategory: Charting & dataviz libraries with maps
+tool_kind: Library
+summary: JavaScript library that splits numeric data into classes (quantile, Jenks and so on) for thematic
+  maps.
+open_source: 'yes'
+license: MIT
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/riatelab/statsbreaks
+notes: riatelab
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 204

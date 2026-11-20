@@ -1,0 +1,24 @@
+id: geet
+kind: tool
+name: GEET
+category: Imagery, remote sensing & GeoAI
+subcategory: Cloud EO platforms
+tool_kind: Library
+summary: Collection of reusable Earth Engine JavaScript functions for building remote sensing apps.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/sacridini/GEET
+notes: For Google Earth Engine
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 253

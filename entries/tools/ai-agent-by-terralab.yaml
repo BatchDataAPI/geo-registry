@@ -1,0 +1,25 @@
+id: ai-agent-by-terralab
+kind: tool
+name: AI Agent by TerraLab
+category: AI, agents & MCP for GIS
+subcategory: QGIS AI & MCP
+tool_kind: Extension
+summary: QGIS plugin where a plain-language request is turned into data search, analysis and a finished
+  map.
+open_source: 'yes'
+license: GPL-2.0
+language: Python
+interfaces:
+- plugin
+- GUI
+call:
+- plugin
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/TerraLabAI/QGIS_AI-Agent
+notes: Vendor plugin; may need a TerraLab account
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 12

@@ -1,0 +1,22 @@
+id: geo-utils-cpp
+kind: tool
+name: geo-utils-cpp
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Header-only C++17 library for lat/lng distance, bearing, area and point-in-polygon on the sphere.
+open_source: 'yes'
+license: Apache-2.0
+language: C++
+interfaces:
+- C/C++
+call:
+- c-cpp
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/gistrec/geo-utils-cpp
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 62

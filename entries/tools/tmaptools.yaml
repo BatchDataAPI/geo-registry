@@ -1,0 +1,23 @@
+id: tmaptools
+kind: tool
+name: tmaptools
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: Helper functions for reading, processing and preparing spatial data for thematic maps in R.
+open_source: 'yes'
+license: LGPL-3.0
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/r-tmap/tmaptools
+notes: Companion to tmap
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 175

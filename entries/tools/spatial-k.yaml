@@ -1,0 +1,23 @@
+id: spatial-k
+kind: tool
+name: Spatial K
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Kotlin Multiplatform libraries for GeoJSON and Turf-style geometry operations.
+open_source: 'yes'
+license: MIT
+language: Kotlin
+interfaces:
+- Java
+call:
+- java
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/maplibre/spatial-k
+notes: MapLibre project
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 81

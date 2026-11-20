@@ -1,0 +1,23 @@
+id: fasterize
+kind: tool
+name: fasterize
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: Converts polygons to rasters much faster than the standard R rasterize functions.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/hypertidy/fasterize
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 148

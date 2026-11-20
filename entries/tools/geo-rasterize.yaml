@@ -1,0 +1,22 @@
+id: geo-rasterize
+kind: tool
+name: geo-rasterize
+category: Desktop GIS & analysis engines
+subcategory: Whitebox & Rust GIS engines
+tool_kind: Library
+summary: Pure-Rust library for rasterizing geo-types geometries onto a grid.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/msalib/geo-rasterize
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 189

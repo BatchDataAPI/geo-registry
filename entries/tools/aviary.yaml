@@ -1,0 +1,22 @@
+id: aviary
+kind: tool
+name: aviary
+category: Imagery, remote sensing & GeoAI
+subcategory: GeoAI / deep learning
+tool_kind: Library
+summary: Python framework for running machine learning inference over large geospatial rasters and vectors.
+open_source: 'yes'
+license: GPL-3.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/geospaitial-lab/aviary
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 258

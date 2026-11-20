@@ -1,0 +1,22 @@
+id: trackintel
+kind: tool
+name: trackintel
+category: Desktop GIS & analysis engines
+subcategory: Python vector analysis
+tool_kind: Library
+summary: Python framework for analysing movement trajectories and mobility data, built on GeoPandas.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mie-lab/trackintel
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 143

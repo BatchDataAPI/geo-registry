@@ -1,0 +1,21 @@
+id: rgeo-shapefile
+kind: tool
+name: Rgeo Shapefile
+category: Core libraries & formats
+subcategory: Vector formats
+tool_kind: Library
+summary: Reads Esri shapefiles into RGeo geometries in Ruby.
+open_source: 'yes'
+license: BSD-3-Clause
+language: Ruby
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/rgeo/rgeo-shapefile
+notes: RGeo add-on
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 120

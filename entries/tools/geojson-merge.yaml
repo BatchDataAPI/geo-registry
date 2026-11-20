@@ -1,0 +1,24 @@
+id: geojson-merge
+kind: tool
+name: geojson-merge
+category: Core libraries & formats
+subcategory: Vector formats
+tool_kind: Toolkit/CLI
+summary: Combines several GeoJSON files into a single FeatureCollection from the command line or Node.
+open_source: 'yes'
+license: ISC
+language: JavaScript
+interfaces:
+- JS
+- CLI
+call:
+- cli
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mapbox/geojson-merge
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 111

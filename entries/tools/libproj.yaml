@@ -1,0 +1,26 @@
+id: libproj
+kind: tool
+name: libproj
+category: Core libraries & formats
+subcategory: Projection & CRS
+tool_kind: Library
+summary: R package exposing the PROJ C API to other R packages.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+- C/C++
+call:
+- r
+- c-cpp
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/paleolimbot/libproj
+notes: By paleolimbot
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 88

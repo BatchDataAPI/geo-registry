@@ -1,0 +1,22 @@
+id: geomakie-jl
+kind: tool
+name: GeoMakie.jl
+category: Display & visualization
+subcategory: Charting & dataviz libraries with maps
+tool_kind: Library
+summary: Adds map projections and geographic axes to Makie plots in Julia.
+open_source: 'yes'
+license: MIT
+language: Julia
+interfaces:
+- Julia
+call:
+- julia
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/MakieOrg/GeoMakie.jl
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 200

@@ -1,0 +1,24 @@
+id: spectral-earth-engine
+kind: tool
+name: spectral (Earth Engine)
+category: Imagery, remote sensing & GeoAI
+subcategory: Remote sensing processing
+tool_kind: Library
+summary: Earth Engine Code Editor module that computes spectral indices from the Awesome Spectral Indices
+  catalogue on images.
+open_source: 'yes'
+license: MIT
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/awesome-spectral-indices/spectral
+notes: JavaScript sibling of spyndex.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 281

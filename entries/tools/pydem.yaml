@@ -1,0 +1,22 @@
+id: pydem
+kind: tool
+name: pyDEM
+category: Desktop GIS & analysis engines
+subcategory: Terrain & hydrology engines
+tool_kind: Library
+summary: Computes flow direction, contributing area and related hydrology layers from large DEMs.
+open_source: 'yes'
+license: Apache-2.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/creare-com/pydem
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 187

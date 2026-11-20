@@ -1,0 +1,22 @@
+id: siac
+kind: tool
+name: SIAC
+category: Imagery, remote sensing & GeoAI
+subcategory: Atmospheric correction
+tool_kind: Library
+summary: Sensor-invariant atmospheric correction for Sentinel-2 and Landsat images.
+open_source: 'yes'
+license: AGPL-3.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/MarcYin/SIAC
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 241

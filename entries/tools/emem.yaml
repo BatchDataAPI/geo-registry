@@ -1,0 +1,23 @@
+id: emem
+kind: tool
+name: emem
+category: AI, agents & MCP for GIS
+subcategory: General GIS MCP servers
+tool_kind: Server
+summary: MCP server that gives AI agents signed, verifiable facts about places on Earth.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- MCP
+call:
+- mcp
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/Vortx-AI/emem
+notes: New project; check maturity
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 4

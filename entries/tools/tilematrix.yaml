@@ -1,0 +1,23 @@
+id: tilematrix
+kind: tool
+name: tilematrix
+category: Servers, standards, tiles & catalogs
+subcategory: Tile generation & packaging
+tool_kind: Library
+summary: Python library for defining tile pyramids and working with tiles in any grid or projection.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/ungarj/tilematrix
+notes: Used by mapchete
+status: active
+review:
+  state: seeded
+  source: awesome-spatial
+  source_row: 382

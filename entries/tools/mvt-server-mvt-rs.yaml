@@ -1,0 +1,23 @@
+id: mvt-server-mvt-rs
+kind: tool
+name: MVT Server (mvt-rs)
+category: Servers, standards, tiles & catalogs
+subcategory: Tile servers
+tool_kind: Server
+summary: Fast vector tile server that publishes PostGIS layers and styles, with a built-in web admin interface.
+open_source: 'yes'
+license: BSD-3-Clause
+language: Rust
+interfaces:
+- REST
+- GUI
+call:
+- rest
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mvt-proj/mvt-rs
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 367

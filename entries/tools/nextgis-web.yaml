@@ -1,0 +1,26 @@
+id: nextgis-web
+kind: tool
+name: NextGIS Web
+category: Servers, standards, tiles & catalogs
+subcategory: Map & feature servers
+tool_kind: Server
+summary: Web GIS server for storing geodata, publishing web maps and serving OGC services, closely tied
+  to QGIS.
+open_source: 'yes'
+license: GPL-3.0
+language: Python
+interfaces:
+- OGC
+- REST
+- GUI
+call:
+- rest
+- ogc
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/nextgis/nextgisweb
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 360

@@ -1,0 +1,22 @@
+id: geojson-net
+kind: tool
+name: GeoJSON.Net
+category: Core libraries & formats
+subcategory: Vector formats
+tool_kind: Library
+summary: .NET GeoJSON types with JSON.NET serialisation and deserialisation.
+open_source: 'yes'
+license: MIT
+language: C#
+interfaces:
+- .NET
+call:
+- dotnet
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/GeoJSON-Net/GeoJSON.Net
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 114

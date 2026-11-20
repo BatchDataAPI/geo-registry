@@ -1,0 +1,24 @@
+id: geos-r-package
+kind: tool
+name: geos (R package)
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: R package giving vectorised access to GEOS geometry operations.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/paleolimbot/geos
+notes: By Dewey Dunnington.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 152

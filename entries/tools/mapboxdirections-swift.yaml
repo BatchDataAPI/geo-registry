@@ -1,0 +1,21 @@
+id: mapboxdirections-swift
+kind: tool
+name: MapboxDirections.swift
+category: Routing, networks, geocoding & LRS
+subcategory: Commercial routing APIs
+tool_kind: Library
+summary: Swift client for Mapbox Directions and map matching on Apple platforms and Linux.
+open_source: 'yes'
+license: ISC
+language: Swift
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mapbox/mapbox-directions-swift
+notes: Swift client for Mapbox Directions API
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 334

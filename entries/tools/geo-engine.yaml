@@ -1,0 +1,29 @@
+id: geo-engine
+kind: tool
+name: Geo Engine
+category: Servers, standards, tiles & catalogs
+subcategory: Processing & sensor services
+tool_kind: Platform
+summary: Spatio-temporal processing platform with workflows over raster and vector data and OGC-compliant
+  APIs.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- Python
+- REST
+- OGC
+- GUI
+call:
+- python
+- rest
+- ogc
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/geo-engine/geoengine
+notes: Commercial hosted version also offered
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 363

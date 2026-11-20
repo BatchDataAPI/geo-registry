@@ -1,0 +1,24 @@
+id: rtree2d
+kind: tool
+name: RTree2D
+category: Core libraries & formats
+subcategory: Spatial indexing
+tool_kind: Library
+summary: Immutable R-tree for fast nearest-neighbour and intersection queries in planar and spherical
+  coordinates.
+open_source: 'yes'
+license: Apache-2.0
+language: Scala
+interfaces:
+- Java
+call:
+- java
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/plokhotnyuk/rtree2d
+notes: Scala library
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 105

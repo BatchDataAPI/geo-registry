@@ -1,0 +1,24 @@
+id: potential
+kind: tool
+name: potential
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: R package that computes Stewart potential (spatial interaction) surfaces.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/riatelab/potential
+notes: riatelab
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 163

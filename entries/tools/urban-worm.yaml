@@ -1,0 +1,22 @@
+id: urban-worm
+kind: tool
+name: urban-worm
+category: AI, agents & MCP for GIS
+subcategory: LLM GIS agents & research
+tool_kind: Library
+summary: Python library that runs multimodal AI models over satellite and street view images of places.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/billbillbilly/urbanworm
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 11

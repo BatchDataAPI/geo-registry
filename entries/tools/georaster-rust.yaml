@@ -1,0 +1,22 @@
+id: georaster-rust
+kind: tool
+name: georaster (Rust)
+category: Core libraries & formats
+subcategory: Raster formats
+tool_kind: Library
+summary: Rust library for reading GeoTIFF rasters and their georeferencing.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- Rust
+call:
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/pka/georaster
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 97

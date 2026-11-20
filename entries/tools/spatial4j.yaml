@@ -1,0 +1,24 @@
+id: spatial4j
+kind: tool
+name: Spatial4j
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Java library of shapes, distance and spatial relations on the plane and sphere, used by Lucene
+  and Solr.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Java
+interfaces:
+- Java
+call:
+- java
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/locationtech/spatial4j
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 82

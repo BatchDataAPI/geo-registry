@@ -1,0 +1,22 @@
+id: stac-jl
+kind: tool
+name: STAC.jl
+category: Imagery, remote sensing & GeoAI
+subcategory: STAC ecosystem
+tool_kind: Library
+summary: Julia client for searching and reading SpatioTemporal Asset Catalogs.
+open_source: 'yes'
+license: MIT
+language: Julia
+interfaces:
+- Julia
+call:
+- julia
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/JuliaClimate/STAC.jl
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 293

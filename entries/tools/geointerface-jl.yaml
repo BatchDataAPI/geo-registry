@@ -1,0 +1,23 @@
+id: geointerface-jl
+kind: tool
+name: GeoInterface.jl
+category: Desktop GIS & analysis engines
+subcategory: Julia geospatial
+tool_kind: Library
+summary: Common interface that lets Julia geometry and geodata packages work with each other.
+open_source: 'yes'
+license: MIT
+language: Julia
+interfaces:
+- Julia
+call:
+- julia
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/JuliaGeo/GeoInterface.jl
+notes: JuliaGeo project
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 129

@@ -1,0 +1,22 @@
+id: sharpmap
+kind: tool
+name: SharpMap
+category: Display & visualization
+subcategory: Cartographic renderers
+tool_kind: Library
+summary: C# mapping library for rendering and querying vector and raster layers in web and desktop apps.
+open_source: 'yes'
+license: LGPL-2.1
+language: C#
+interfaces:
+- .NET
+call:
+- dotnet
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/SharpMap/SharpMap
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 196

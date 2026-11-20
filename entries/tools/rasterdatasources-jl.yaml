@@ -1,0 +1,22 @@
+id: rasterdatasources-jl
+kind: tool
+name: RasterDataSources.jl
+category: Desktop GIS & analysis engines
+subcategory: Julia geospatial
+tool_kind: Library
+summary: Julia package that downloads common raster datasets such as WorldClim and CHELSA for local use.
+open_source: 'yes'
+license: MIT
+language: Julia
+interfaces:
+- Julia
+call:
+- julia
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/EcoJulia/RasterDataSources.jl
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 132

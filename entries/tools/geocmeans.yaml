@@ -1,0 +1,22 @@
+id: geocmeans
+kind: tool
+name: geocmeans
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: R package for spatial fuzzy c-means clustering of geographic data.
+open_source: 'yes'
+license: GPL-2.0
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/JeremyGelb/geocmeans
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 150

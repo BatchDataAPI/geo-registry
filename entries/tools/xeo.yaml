@@ -1,0 +1,22 @@
+id: xeo
+kind: tool
+name: xeo
+category: Imagery, remote sensing & GeoAI
+subcategory: Remote sensing processing
+tool_kind: Library
+summary: Python catalogue of Earth observation satellites and their band specifications.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/awesome-spectral-indices/xeo
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 285

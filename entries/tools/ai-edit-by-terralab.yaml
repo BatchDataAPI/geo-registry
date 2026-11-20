@@ -1,0 +1,24 @@
+id: ai-edit-by-terralab
+kind: tool
+name: AI Edit by TerraLab
+category: AI, agents & MCP for GIS
+subcategory: QGIS AI & MCP
+tool_kind: Extension
+summary: QGIS plugin that edits aerial imagery from a text prompt and returns a georeferenced result.
+open_source: 'yes'
+license: GPL-2.0
+language: Python
+interfaces:
+- plugin
+- GUI
+call:
+- plugin
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/TerraLabAI/QGIS_AI-Edit
+notes: Vendor plugin; output is generated imagery
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 13

@@ -1,0 +1,23 @@
+id: synapse-sr
+kind: tool
+name: synapse-sr
+category: Imagery, remote sensing & GeoAI
+subcategory: GeoAI / deep learning
+tool_kind: Library
+summary: Deep learning model that sharpens Sentinel-2 imagery from 10 m to 2 m with per-pixel trust scores.
+open_source: 'yes'
+license: CC0-1.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/SharadhNaidu/synapse-sr
+notes: Young research project
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 264

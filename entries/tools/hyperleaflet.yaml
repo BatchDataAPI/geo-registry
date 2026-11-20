@@ -1,0 +1,22 @@
+id: hyperleaflet
+kind: tool
+name: hyperleaflet
+category: Display & visualization
+subcategory: Leaflet plugins
+tool_kind: Library
+summary: Lets you build Leaflet maps from HTML attributes without writing JavaScript.
+open_source: 'yes'
+license: MIT
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/cemrehancavdar/hyperleaflet
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 207

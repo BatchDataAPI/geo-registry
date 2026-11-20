@@ -1,0 +1,20 @@
+id: geo-elixir
+kind: tool
+name: Geo (Elixir)
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Elixir geometry types with WKT, WKB and GeoJSON encoding and decoding.
+open_source: 'yes'
+license: MIT
+language: Elixir
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/felt/geo
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 61

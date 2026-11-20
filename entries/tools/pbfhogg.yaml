@@ -1,0 +1,24 @@
+id: pbfhogg
+kind: tool
+name: pbfhogg
+category: OSM & Overture tooling
+subcategory: PBF processing
+tool_kind: Toolkit/CLI
+summary: Rust library and CLI to read, write, merge and transform OSM PBF files with parallel decoding.
+open_source: 'yes'
+license: Apache-2.0
+language: Rust
+interfaces:
+- CLI
+- Rust
+call:
+- cli
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/folknor/pbfhogg
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 308

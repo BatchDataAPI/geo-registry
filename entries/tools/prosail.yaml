@@ -1,0 +1,23 @@
+id: prosail
+kind: tool
+name: prosail
+category: Imagery, remote sensing & GeoAI
+subcategory: Remote sensing processing
+tool_kind: Library
+summary: Simulates canopy reflectance with the PROSAIL leaf and canopy radiative transfer model in Python.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/jgomezdans/prosail
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 274

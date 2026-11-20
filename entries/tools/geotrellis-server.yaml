@@ -1,0 +1,25 @@
+id: geotrellis-server
+kind: tool
+name: GeoTrellis Server
+category: Servers, standards, tiles & catalogs
+subcategory: Map & feature servers
+tool_kind: Server
+summary: Scala tools for building raster processing and display services served over WMS, WCS and WMTS.
+open_source: 'yes'
+license: Apache-2.0
+language: Scala
+interfaces:
+- OGC
+- Java
+call:
+- ogc
+- java
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/geotrellis/geotrellis-server
+notes: Companion to the GeoTrellis library.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 359

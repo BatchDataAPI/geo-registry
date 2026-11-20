@@ -1,0 +1,21 @@
+id: osmnames
+kind: data
+name: OSMNames
+summary: Downloadable OpenStreetMap place names ranked by importance, with bounding boxes and hierarchy.
+publisher: Unknown
+themes:
+- global-names
+- open-data-sources
+coverage:
+  region: Global
+license: GPL-2.0
+access:
+- type: http
+  url: http://osmnames.org/
+  auth: none
+notes: Licence shown is for the code; data derives from OSM.
+status: active
+review:
+  state: seeded
+  source: awesome-spatial
+  source_row: 381

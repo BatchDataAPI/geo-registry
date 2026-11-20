@@ -1,0 +1,23 @@
+id: radiometric-normalization
+kind: tool
+name: radiometric_normalization
+category: Imagery, remote sensing & GeoAI
+subcategory: Atmospheric correction
+tool_kind: Library
+summary: Python workflows for radiometrically normalising one satellite image to another.
+open_source: 'yes'
+license: Apache-2.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/planetlabs/radiometric_normalization
+notes: Planet; low activity
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 240

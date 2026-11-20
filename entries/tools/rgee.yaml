@@ -1,0 +1,23 @@
+id: rgee
+kind: tool
+name: rgee
+category: Imagery, remote sensing & GeoAI
+subcategory: Cloud EO platforms
+tool_kind: Library
+summary: R interface to the Google Earth Engine API for scripting and mapping Earth Engine data.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/r-spatial/rgee
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 257

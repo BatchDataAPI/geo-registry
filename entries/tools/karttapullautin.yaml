@@ -1,0 +1,22 @@
+id: karttapullautin
+kind: tool
+name: Karttapullautin
+category: Point clouds, LiDAR & 3D
+subcategory: Lidar processing suites
+tool_kind: Toolkit/CLI
+summary: Generates orienteering-style maps from classified lidar data.
+open_source: 'yes'
+license: GPL-3.0
+language: Rust
+interfaces:
+- CLI
+call:
+- cli
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/karttapullautin/karttapullautin
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 323

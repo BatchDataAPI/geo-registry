@@ -1,0 +1,23 @@
+id: maxrev-gdal-core
+kind: tool
+name: MaxRev.Gdal.Core
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Packages GDAL/OGR with native binaries for .NET apps on Windows, Linux and macOS.
+open_source: 'yes'
+license: MIT
+language: C#
+interfaces:
+- .NET
+call:
+- dotnet
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/MaxRev-Dev/gdal.netcore
+notes: .NET bindings of GDAL
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 34

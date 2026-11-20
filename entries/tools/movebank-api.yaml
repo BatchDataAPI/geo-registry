@@ -1,0 +1,25 @@
+id: movebank-api
+kind: tool
+name: movebank-api
+category: Open data sources
+subcategory: Catalogs
+tool_kind: Service/API
+summary: Documents the HTTP interface for downloading animal tracking data from the Movebank database.
+open_source: 'no'
+license: NOASSERTION
+license_original: Unknown
+interfaces:
+- REST
+- download
+call:
+- rest
+- download
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/movebank/movebank-api-doc
+notes: Movebank animal movement data; access terms vary by study
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 312

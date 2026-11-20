@@ -1,0 +1,23 @@
+id: wxee
+kind: tool
+name: wxee
+category: Imagery, remote sensing & GeoAI
+subcategory: Time series
+tool_kind: Library
+summary: Moves Google Earth Engine image collections into xarray for time series processing in Python.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/aazuspan/wxee
+notes: Needs an Earth Engine account
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 298

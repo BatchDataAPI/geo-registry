@@ -1,0 +1,23 @@
+id: rasterdt
+kind: tool
+name: rasterDT
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: Speeds up common raster operations in R (reclassify, zonal stats) using data.table.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/JoshOBrien/rasterDT
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 166

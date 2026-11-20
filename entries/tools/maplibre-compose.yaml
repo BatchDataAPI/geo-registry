@@ -1,0 +1,20 @@
+id: maplibre-compose
+kind: tool
+name: MapLibre Compose
+category: Display & visualization
+subcategory: Native & mobile SDKs
+tool_kind: Library
+summary: Kotlin Multiplatform library that adds MapLibre vector tile maps to Compose apps.
+open_source: 'yes'
+license: BSD-3-Clause
+language: Kotlin
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/maplibre/maplibre-compose
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 217

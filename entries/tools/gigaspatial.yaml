@@ -1,0 +1,24 @@
+id: gigaspatial
+kind: tool
+name: GigaSpatial
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Python library to fetch datasets like WorldPop, GHSL and building footprints and map them onto
+  H3, S2 or tile grids.
+open_source: 'yes'
+license: AGPL-3.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/unicef/giga-spatial
+notes: From UNICEF Giga
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 28

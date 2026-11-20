@@ -1,0 +1,23 @@
+id: viewscape
+kind: tool
+name: viewscape
+category: Desktop GIS & analysis engines
+subcategory: R spatial packages
+tool_kind: Library
+summary: R package for viewshed-based landscape analysis, such as visible area and viewshed metrics.
+open_source: 'yes'
+license: GPL-3.0
+language: R
+interfaces:
+- R
+call:
+- r
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/land-info-lab/viewscape
+notes: Low stars but on CRAN
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 176

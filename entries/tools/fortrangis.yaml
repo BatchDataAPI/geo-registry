@@ -1,0 +1,21 @@
+id: fortrangis
+kind: tool
+name: FortranGIS
+category: Core libraries & formats
+subcategory: Data access & IO
+tool_kind: Library
+summary: Fortran bindings to common open-source GIS libraries such as GDAL, PROJ and shapelib.
+open_source: 'yes'
+license: LGPL-3.0
+language: Fortran
+interfaces: []
+call: []
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/ARPA-SIMC/fortrangis
+notes: Fortran interfaces; no matching interface value
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 24

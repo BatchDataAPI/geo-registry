@@ -1,0 +1,25 @@
+id: datapillager
+kind: tool
+name: DataPillager
+category: Connections & storage
+subcategory: Esri connections & auth
+tool_kind: Toolkit/CLI
+summary: Downloads layers from Esri ArcGIS REST map and feature services to local files.
+open_source: 'yes'
+license: MIT
+language: Python
+interfaces:
+- Python
+- plugin
+call:
+- python
+- plugin
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/gdherbert/DataPillager
+notes: ArcGIS toolbox
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 18

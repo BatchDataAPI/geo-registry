@@ -1,0 +1,23 @@
+id: geowright
+kind: tool
+name: geowright
+category: Display & visualization
+subcategory: MapLibre/OpenLayers ecosystem
+tool_kind: Library
+summary: Playwright helpers for testing MapLibre GL JS maps by querying and interacting with rendered
+  features.
+open_source: 'yes'
+license: Apache-2.0
+language: TypeScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/geowright/geowright
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 212

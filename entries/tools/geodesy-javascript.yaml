@@ -1,0 +1,24 @@
+id: geodesy-javascript
+kind: tool
+name: Geodesy (JavaScript)
+category: Core libraries & formats
+subcategory: Projection & CRS
+tool_kind: Library
+summary: JavaScript functions for geodesic distances, bearings, datum conversion, UTM/MGRS grid references
+  and n-vector maths.
+open_source: 'yes'
+license: MIT
+language: JavaScript
+interfaces:
+- JS
+call:
+- js
+wrapped_by_columbus: false
+project_status: maintained
+url: https://github.com/chrisveness/geodesy
+notes: By Chris Veness (movable-type.co.uk).
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 86

@@ -1,0 +1,22 @@
+id: pyimpute
+kind: tool
+name: pyimpute
+category: Imagery, remote sensing & GeoAI
+subcategory: GeoAI / deep learning
+tool_kind: Library
+summary: Trains scikit-learn models on raster predictors and writes spatial predictions back to rasters.
+open_source: 'yes'
+license: BSD-3-Clause
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/perrygeo/pyimpute
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 261

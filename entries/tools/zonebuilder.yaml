@@ -1,0 +1,25 @@
+id: zonebuilder
+kind: tool
+name: zonebuilder
+category: Routing, networks, geocoding & LRS
+subcategory: Accessibility & transport modeling
+tool_kind: Toolkit/CLI
+summary: Builds concentric, segmented zoning systems around city centres for transport analysis.
+open_source: 'yes'
+license: AGPL-3.0
+language: Rust
+interfaces:
+- CLI
+- Rust
+call:
+- cli
+- rust
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/zonebuilders/zonebuilder-rust
+notes: Rust version of the zonebuilder R package
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 331

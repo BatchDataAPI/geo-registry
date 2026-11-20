@@ -1,0 +1,27 @@
+id: cog-validator
+kind: tool
+name: cog_validator
+category: Core libraries & formats
+subcategory: Raster formats
+tool_kind: Server
+summary: Small web service and script that checks whether a GeoTIFF is a valid Cloud-Optimized GeoTIFF.
+open_source: 'yes'
+license: NOASSERTION
+license_original: Unknown
+language: Python
+interfaces:
+- REST
+- CLI
+- Python
+call:
+- python
+- cli
+- rest
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/rouault/cog_validator
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 94

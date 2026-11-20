@@ -1,0 +1,24 @@
+id: mapbox-navigation-sdk-for-android
+kind: tool
+name: Mapbox Navigation SDK for Android
+category: Display & visualization
+subcategory: Native & mobile SDKs
+tool_kind: Library
+summary: Android SDK for turn-by-turn navigation with routing, guidance and map UI.
+open_source: partial
+license: NOASSERTION
+license_original: Unknown
+language: Kotlin
+interfaces:
+- Java
+call:
+- java
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/mapbox/mapbox-navigation-android
+notes: Needs a Mapbox account and token; Mapbox terms apply.
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 215

@@ -1,0 +1,22 @@
+id: geo
+kind: tool
+name: Geo
+category: Core libraries & formats
+subcategory: Geometry & topology engines
+tool_kind: Library
+summary: Geodesy and geometry library for .NET with distance, bearing and coordinate calculations.
+open_source: 'yes'
+license: LGPL-3.0
+language: C#
+interfaces:
+- .NET
+call:
+- dotnet
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/sibartlett/Geo
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 58

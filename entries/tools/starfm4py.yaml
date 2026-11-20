@@ -1,0 +1,22 @@
+id: starfm4py
+kind: tool
+name: starfm4py
+category: Imagery, remote sensing & GeoAI
+subcategory: Remote sensing processing
+tool_kind: Library
+summary: Python version of the STARFM model that fuses coarse and fine resolution satellite images.
+open_source: 'yes'
+license: GPL-3.0
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: low-activity
+url: https://github.com/nmileva/starfm4py
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 284

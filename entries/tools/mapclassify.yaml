@@ -1,0 +1,23 @@
+id: mapclassify
+kind: tool
+name: mapclassify
+category: Desktop GIS & analysis engines
+subcategory: Spatial statistics (Python / PySAL)
+tool_kind: Library
+summary: Classifies values into classes (quantiles, natural breaks and others) for choropleth maps.
+open_source: 'yes'
+license: BSD-3-Clause
+language: Python
+interfaces:
+- Python
+call:
+- python
+wrapped_by_columbus: false
+project_status: active
+url: https://github.com/pysal/mapclassify
+notes: PySAL project
+status: active
+review:
+  state: seeded
+  source: awesome-geospatial
+  source_row: 179
