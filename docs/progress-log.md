@@ -4,8 +4,8 @@ Kit version 1.0 · as of 2026-11-20, S2 waiting on the owner; S4 started early (
 
 ## Where things stand
 
-- **Session:** S4 started early at the owner's request (2026-11-20) · **Task:** T-14 done (connector built and tested), in PR; S2's T-5, T-6, T-7 and T-9 are merged; site live at https://wiatrek-kevin-s.github.io/geo-registry/
-- **Next step:** owner approves the T-14 merge and does H-1 (domain) and H-3; then T-8, T-15 (H-4, Cloudflare token), T-16 (connector live) · **Waiting on the owner:** H-1, H-3, T-14 merge approval
+- **Session:** S4 started early at the owner's request (2026-11-20) · **Task:** T-14 done and merged (#46); 381 new registry entries merged (#47, CR-2)
+- **Next step:** confirm geo-registry.io (T-8; the repo variables already say SITE_URL=https://geo-registry.io), then T-15 (H-4, Cloudflare token) and T-16 (connector live) · **Waiting on the owner:** whether geo-registry.io loads; H-4
 - **Homework received:** H-0 (geo-registry.io, expires 2027-11-07, auto-renew: on), H-2 (done by the owner, checked with gh api)
 
 ## Decisions
@@ -40,13 +40,19 @@ Kit version 1.0 · as of 2026-11-20, S2 waiting on the owner; S4 started early (
 | ID | Date | What and why | Options | Recommendation | Status |
 |---|---|---|---|---|---|
 | CR-1 | 2026-11-07 | Search misses 3 of 10 lookups (REQ-4, Must). Measured with plain Pagefind relevance: "lidar Travis County" finds nothing (txgio-lidar's page says Texas, not Travis County); "STAC imagery" ranks its first target 31st and "OpenStreetMap" ranks planet-osm 16th, below many tools. (a) Group results by kind (Data sources, Operations, Tools; top 5 each plus "Show all N"); flat list when a kind filter is set. Measured: every lookup then ranks its target 1st to 4th in its group. (b) Place lookup: when a query names a US county, also search with its state; needs a small county-to-state list from the Census Bureau's public-domain Gazetteer file, kept in `site/`, loaded only for such queries. Measured: "lidar Texas" ranks txgio-lidar 1st | Approve both; approve (a) only and drop the Travis lookup from REQ-4; keep the plain list | Approve both | approved 2026-11-07 (owner, in chat) |
-| CR-2 | 2026-11-20 | Owner asks for (a) an automatic way to find and propose new tools and data sources, (b) adding the geo MCP servers the registry lacks (from sparkgeo/geo-mcp-servers), (c) a list of layers/datasets inside each data source where the publisher's catalog allows it, and searching sources for missing entries. This is registry work: it touches `entries/`, `schema/` (an added optional field) and `harvest/`, which this kit lists as out of bounds | Plan it as separate registry work after the connector is live; or fold into this kit | Separate registry work, planned with the owner before building; the duplicate AWS entries (aws-registry-of-open-data, aws-open-data-registry) go with it | raised 2026-11-20 (owner, in chat); queued after T-16 |
+| CR-2 | 2026-11-20 | Owner asks for (a) an automatic way to find and propose new tools and data sources, (b) adding the geo MCP servers the registry lacks (from sparkgeo/geo-mcp-servers), (c) a list of layers/datasets inside each data source where the publisher's catalog allows it, and searching sources for missing entries. This is registry work: it touches `entries/`, `schema/` (an added optional field) and `harvest/`, which this kit lists as out of bounds | Plan it as separate registry work after the connector is live; or fold into this kit | Separate registry work, planned with the owner before building; the duplicate AWS entries (aws-registry-of-open-data, aws-open-data-registry) go with it | partly approved 2026-11-20 (owner, in chat): new entries go in a second seed sheet `seed/additions.csv` (converter reads it after the atlas; `review.source` = where the row was found); 381 checked entries from Awesome-Geospatial and awesome-spatial merged in #47. Still open: 221 list candidates not checked (session network blocks their sites), MCP servers from sparkgeo, layers per data source, the automatic finder, the duplicate AWS entries |
 
 Status: raised, approved, declined, or Sent to Blueprint (touches a one-way door; affected tasks paused).
 
 ## Handoff notes
 
 Newest first, written as you go. Mark each claim verified (checked this session) or unverified.
+
+### S4 (early): #46 and #47 merged (2026-11-20)
+
+- **Merged:** the owner said "merge whatever you think should be merged"; #46 (T-14 connector) merged as 7c903ab and #47 (381 entries, CR-2) as 2a17c6d, both with all checks green (verified).
+- **#47:** 1,071 list links not in the registry; 211 dead or stale set aside; 860 judged by agents: 381 added, 50 already listed, 207 excluded, 221 not checked because this session's network blocks the sites (verified; decisions list kept in the session scratchpad, summarised in #47).
+- **Next:** check the main run's deploy, then T-8 and H-4.
 
 ### S4 (early): T-14 done, in PR (2026-11-20)
 
