@@ -149,12 +149,12 @@ jobs:
       - name: Connector install
         working-directory: agent/connector
         run: npm ci --ignore-scripts
+      - name: Connector index (the Worker imports it, so it comes first)
+        working-directory: agent/connector
+        run: npm run build:index
       - name: Connector type check
         working-directory: agent/connector
         run: npm run check
-      - name: Connector index
-        working-directory: agent/connector
-        run: npm run build:index
       - name: Connector unit tests and speed
         working-directory: agent/connector
         run: npm test && npm run speed
