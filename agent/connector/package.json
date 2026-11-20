@@ -1,0 +1,28 @@
+{
+  "name": "geo-registry-connector",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=26.10.0"
+  },
+  "scripts": {
+    "build:index": "node scripts/build-index.ts",
+    "dev": "wrangler dev",
+    "check": "wrangler types && tsc --noEmit",
+    "test": "node --test test/unit/",
+    "test:worker": "node --test test/worker/",
+    "speed": "node scripts/speed.ts",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.4.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.4.0",
+    "@types/node": "26.6.6",
+    "typescript": "6.0.3",
+    "wrangler": "4.165.0"
+  }
+}

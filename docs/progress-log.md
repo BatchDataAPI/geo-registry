@@ -1,11 +1,11 @@
 # Progress log: geo-registry.io
 
-Kit version 1.0 · as of 2026-11-08, session S2 in progress
+Kit version 1.0 · as of 2026-11-20, S2 waiting on the owner; S4 started early (T-14)
 
 ## Where things stand
 
-- **Session:** S2 · **Task:** T-5, T-6, T-7 and T-9 code in PR; site live at https://wiatrek-kevin-s.github.io/geo-registry/
-- **Next step:** owner does H-1 and H-3 and approves the merges; then T-8 and T-9 checks · **Waiting on the owner:** H-1, H-3, merge approval
+- **Session:** S4 started early at the owner's request (2026-11-20) · **Task:** T-14 done (connector built and tested), in PR; S2's T-5, T-6, T-7 and T-9 are merged; site live at https://wiatrek-kevin-s.github.io/geo-registry/
+- **Next step:** owner approves the T-14 merge and does H-1 (domain) and H-3; then T-8, T-15 (H-4, Cloudflare token), T-16 (connector live) · **Waiting on the owner:** H-1, H-3, T-14 merge approval
 - **Homework received:** H-0 (geo-registry.io, expires 2027-11-07, auto-renew: on), H-2 (done by the owner, checked with gh api)
 
 ## Decisions
@@ -28,18 +28,35 @@ Kit version 1.0 · as of 2026-11-08, session S2 in progress
 | 2026-11-08 | Added dev dependencies stylelint 18.0.0 and @axe-core/playwright 4.14.0 (as of 2026-11-08) | Named by T-6 | Decided |
 | 2026-11-08 | Search filters are a "Filters" fold: open on a laptop, closed on a phone unless a filter is set | Ten filters pushed every result below the first screen on a phone | Decided |
 | 2026-11-08 | `/engines/` is grouped by the engine's tool category; `/engines/<software>/` by operation group, with unmapped tools last | The spec's "grouped by category, region or operation group" | Decided |
+| 2026-11-20 | Started S4's T-14 before S3 (skill) | Owner asked to get the connector working first; T-14 depends only on T-5 (done) | Asked (owner, in chat) |
+| 2026-11-20 | Connector uses the official SDK's `createMcpHandler` from `@modelcontextprotocol/server` 2.4.0 directly, not the `agents` package wrapper | The authless template's `agents/mcp/server` is a thin layer over this same handler; going direct drops a large dependency tree (brief security item 5 allows "the MCP SDK or Cloudflare agents package"). SDK v2 is the line that implements MCP 2026-07-28 and serves 2025-era clients statelessly from one endpoint | Decided |
+| 2026-11-20 | Pinned wrangler 4.165.0, @modelcontextprotocol/server and /client 2.4.0, zod 4.6.7, TypeScript 6.0.3 (as the site), @types/node 26.6.6; compatibility date 2026-11-01; no `nodejs_compat` | Current as of 2026-11-20; the SDK has a workerd build that needs no Node APIs | Decided |
+| 2026-11-20 | Connector tests use Node's built-in runner and run the TypeScript directly (Node 26 type stripping); the end-to-end test serves the locally built `site/dist` instead of the live site | Same runner as the site, no extra dependencies; the test needs no network, so CI stays reliable. The live site is checked at T-16 | Decided |
+| 2026-11-20 | Connector search also expands a US county to its state (same Gazetteer file and rule as CR-1), ranks retired entries last and implementations at 0.6 unless `kind` is set | Keeps "lidar for Travis County" working through AI apps, as on the site; implementations outnumber the rest 4 to 1 | Decided |
+| 2026-11-20 | Implementation summaries in connector results are built from real fields ("PostGIS's st_buffer: Buffer."), and their summary and path are rebuilt by the Worker rather than stored | As the site does (2026-11-08); storing them pushed the index to 2.12 MB, over the 2 MB cap | Decided |
 
 ## Change requests
 
 | ID | Date | What and why | Options | Recommendation | Status |
 |---|---|---|---|---|---|
 | CR-1 | 2026-11-07 | Search misses 3 of 10 lookups (REQ-4, Must). Measured with plain Pagefind relevance: "lidar Travis County" finds nothing (txgio-lidar's page says Texas, not Travis County); "STAC imagery" ranks its first target 31st and "OpenStreetMap" ranks planet-osm 16th, below many tools. (a) Group results by kind (Data sources, Operations, Tools; top 5 each plus "Show all N"); flat list when a kind filter is set. Measured: every lookup then ranks its target 1st to 4th in its group. (b) Place lookup: when a query names a US county, also search with its state; needs a small county-to-state list from the Census Bureau's public-domain Gazetteer file, kept in `site/`, loaded only for such queries. Measured: "lidar Texas" ranks txgio-lidar 1st | Approve both; approve (a) only and drop the Travis lookup from REQ-4; keep the plain list | Approve both | approved 2026-11-07 (owner, in chat) |
+| CR-2 | 2026-11-20 | Owner asks for (a) an automatic way to find and propose new tools and data sources, (b) adding the geo MCP servers the registry lacks (from sparkgeo/geo-mcp-servers), (c) a list of layers/datasets inside each data source where the publisher's catalog allows it, and searching sources for missing entries. This is registry work: it touches `entries/`, `schema/` (an added optional field) and `harvest/`, which this kit lists as out of bounds | Plan it as separate registry work after the connector is live; or fold into this kit | Separate registry work, planned with the owner before building; the duplicate AWS entries (aws-registry-of-open-data, aws-open-data-registry) go with it | raised 2026-11-20 (owner, in chat); queued after T-16 |
 
 Status: raised, approved, declined, or Sent to Blueprint (touches a one-way door; affected tasks paused).
 
 ## Handoff notes
 
 Newest first, written as you go. Mark each claim verified (checked this session) or unverified.
+
+### S4 (early): T-14 done, in PR (2026-11-20)
+
+- **Start checks:** main at c642908 matches the log (PRs #39 to #42 merged); smoke check passed: registry 1,564 entries, 65 operations, 6,741 implementations; site build 8,436 pages, 21/21 unit tests, 0 broken links in 219,614 (verified).
+- **Answered the owner:** Health (Tuesdays) and Engines (Mondays) run on schedule and succeed, but only open PRs; #43 (engines, 2026-11-09) and #44 (health, 2026-11-10) are still open, plus outside PR #45. Nothing discovers new entries; that is CR-2 (verified with the Actions run list).
+- **Done:** `agent/connector/`: Worker, search index builder, three tools, limits, fetch allowlist, unit tests, end-to-end tests over both MCP revisions, speed check; `site-check` runs them and uploads `geo-registry-connector`. All T-14 checks pass; evidence in `docs/tasks.json` (verified).
+- **Note:** this cloud session can't reach github.io (the proxy refuses it) and `wrangler dev` doesn't use the proxy, so the end-to-end test serves `site/dist` locally. Node 26.10.0 was downloaded to the session scratchpad.
+- **Draft for the owner:** the sparkgeo/geo-mcp-servers submission is drafted in chat; post it once T-16 puts the connector live.
+- **Saved:** branch `claude/elegant-cerf-47pkic`.
+- **Next:** owner approves the merge and does H-1 (domain) so T-8 and then T-15 (H-4) and T-16 can run.
 
 ### S2: T-9 code in PR; waiting on H-1 and H-3 (2026-11-08)
 
